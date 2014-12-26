@@ -26,9 +26,6 @@ end
 
 
 def install_oh_my_zsh
-  if File.exist?(File.join(ENV['HOME'], ".oh-my-zsh"))
-    puts "found ~/.oh-my-zsh"
-  else
     print "install oh-my-zsh? [ynq] "
     case $stdin.gets.chomp
     when 'y'
@@ -39,5 +36,4 @@ def install_oh_my_zsh
     else
       puts "skipping oh-my-zsh, you will need to change ~/.zshrc"
     end
-  end
 end
