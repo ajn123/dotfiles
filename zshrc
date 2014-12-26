@@ -97,7 +97,6 @@ function battery_charge {
  RPROMPT='$(battery_charge)'
 
 
-source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
