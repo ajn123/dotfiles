@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Install command-line tools using Homebrew
 # brew tap homebrew/boneyard
 # Usage: `brew bundle Brewfile`
@@ -34,7 +35,6 @@ brew install narwhal;
 brew install vim --override-system-vi;
 brew install homebrew/dupes/grep;
 brew install homebrew/dupes/screen;
-brew install homebrew/php/php55 --with-gmp;
 
 # Install other useful binaries
 brew install ack;

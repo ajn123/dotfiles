@@ -2,6 +2,11 @@
 " possible, as it has side effects.
 set nocompatible
 
+"automaticlly reload .vimrc when saved
+au BufWritePost .vimrc so ~/.vimrc 
+
+"" Map escape 
+:imap ;; <Esc>
 " Leader
 let mapleader = " "
 
