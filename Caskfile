@@ -1,4 +1,6 @@
+#!/usr/bin/env bash
 # Install native apps
+#
 # Usage: `brew bundle Caskfile`
 
 brew install caskroom/cask/brew-cask;
@@ -11,3 +13,6 @@ brew cask install macvim 2> /dev/null;
 brew cask install sublime-text 2> /dev/null;
 brew cask install the-unarchiver 2> /dev/null;
 brew cask install alfred; 
+brew cask install dash;
+brew cask install spectaclee;
+brew cask install onepassword;
