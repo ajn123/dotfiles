@@ -1,4 +1,5 @@
 # Install command-line tools using Homebrew
+# brew tap homebrew/boneyard
 # Usage: `brew bundle Brewfile`
 
 # Make sure we’re using the latest Homebrew
