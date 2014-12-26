@@ -30,7 +30,7 @@ Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/tComment'
 Plugin 'tomasr/molokai'
-Plugin 'mattn/gist-vim'
+Plugin 'mattn/gist-vim'  " For gists
 
 
 if filereadable(expand("~/.vimrc.bundles.local"))
