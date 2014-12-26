@@ -14,7 +14,7 @@ alias p="cd ~/projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
-alias cl='clear'
+alias cl='clear' # ctrl + L is probably faster though
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
@@ -22,7 +22,6 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 
  OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update='brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
-
 
 
 # Detect which `ls` flavor is in use
@@ -57,9 +56,6 @@ alias capd='cap deploy'
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
-
-# Faster npm for Europeans
-command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
 
 # shutdown
 alias shutdown="sudo shutdown -h now"
