@@ -14,6 +14,8 @@ alias p="cd ~/projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias cl='clear'
+
 
 
 # Hide/show all desktop icons (useful when presenting)
@@ -49,6 +51,8 @@ alias m="migrate"
 alias rk="rake"
 alias s="rspec"
 
+# Capistrano
+alias capd='cap deploy'
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
