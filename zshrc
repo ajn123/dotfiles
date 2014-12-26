@@ -88,17 +88,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# -------------------------------------------------------------------
-# # Capistrano aliases
-# # -------------------------------------------------------------------
-#
 
-
-
-
-    function battery_charge {
-        echo `$BAT_CHARGE` 2>/dev/null
-    }
+function battery_charge {
+    echo `$BAT_CHARGE` 2>/dev/null
+}
 
 
  RPROMPT='$(battery_charge)'
