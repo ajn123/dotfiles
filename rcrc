@@ -1,4 +1,4 @@
-EXCLUDES="README.md LICENSE"
+EXCLUDES="README.md LICENSE startup.sh Brewfile Caskfile"
 DOTFILES_DIRS="$HOME/dotfiles"
 COPY_ALWAYS=oh-my-zsh/*
 
