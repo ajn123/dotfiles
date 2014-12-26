@@ -1,0 +1,64 @@
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~" # `cd` is probably faster to type though
+alias -- -="cd -"
+
+# Shortcuts
+alias d="cd ~/Documents"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/projects"
+alias g="git"
+alias h="history"
+alias j="jobs"
+
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+
+
+# Detect which `ls` flavor is in use
+if ls --color > /dev/null 2>&1; then # GNU `ls`
+	colorflag="--color"
+else # OS X `ls`
+	colorflag="-G"
+fi
+
+# Git. Prefer these to git aliases for brevity.
+# Use the GitHub wrapper `hub` if found.
+command -v hub &> /dev/null && alias git='hub'
+alias g='git'
+alias ga='git add'
+alias gc='git commit'
+alias gclo='git clone'
+alias gl='git pull'
+alias gp='git push'
+alias gsr='git svn rebase'
+alias gsd='git svn dcommit'
+alias gu="git reset --soft 'HEAD^'"
+alias gacp="git add .;git commit;git push"
+
+# Rails
+alias migrate="rake db:migrate db:rollback && rake db:migrate"
+alias m="migrate"
+alias rk="rake"
+alias s="rspec"
+
+
+# Reload the shell (i.e. invoke as a login shell)
+alias reload="exec $SHELL -l"
+
+# Faster npm for Europeans
+command -v npm > /dev/null && alias npme="npm --registry http://registry.npmjs.eu/"
+
+# shutdown
+alias shutdown="sudo shutdown -h now"
+
+
+# Include custom aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local
