@@ -1,4 +1,4 @@
 EXCLUDES="README.md LICENSE"
 DOTFILES_DIRS="$HOME/dotfiles"
-COPY_ALWAYS=.oh-my-zsh/*
+COPY_ALWAYS=oh-my-zsh/*
 
