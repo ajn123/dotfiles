@@ -1,4 +1,6 @@
-sk for the administrator password upfront
+#!/usr/bin/env bash
+
+# ask for the administrator password upfront
 sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until `.osx` has finished
