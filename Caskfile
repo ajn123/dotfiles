@@ -14,5 +14,5 @@ brew cask install sublime-text 2> /dev/null;
 brew cask install the-unarchiver 2> /dev/null;
 brew cask install alfred; 
 brew cask install dash;
-brew cask install spectaclee;
+brew cask install spectacle;
 brew cask install onepassword;
