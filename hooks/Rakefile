@@ -45,3 +45,13 @@ def install_vundle
       system %Q{vim -u $HOME/.vimrc.bundles +BundleInstall +qa}
   end
 end
+
+def start_up
+  system %Q{\curl -sSL https://get.rvm.io | bash -s stable --ruby} # rvm
+  system %Q{ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"} # hombrew
+  system %Q{brew tap thoughtbot/formulae}
+  system %Q{brew install rcm}
+  system %Q{env RCRC=$HOME/dotfiles/rcrc rcup}
+  system %Q{sh brew_Install}
+  system %Q{sh cask_Install}
+end
