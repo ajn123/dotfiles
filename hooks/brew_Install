@@ -59,6 +59,8 @@ brew install ucspi-tcp; # `tcpserver` et al.
 brew install webkit2png;
 brew install xpdf;
 brew install zopfli;
+
+brew tap Goles/battery;
 brew install battery;
 brew install spark;
 brew install z;
