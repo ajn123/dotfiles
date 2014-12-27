@@ -15,6 +15,11 @@ Clone onto your laptop:
 
     git clone git://github.com/ajn123/dotfiles.git
 
+For mac:
+    
+    cd hooks;
+    rake install;
+
 Install [rcm](https://github.com/thoughtbot/rcm):
 
     brew tap thoughtbot/formulae
@@ -36,3 +41,9 @@ configuration options:
 You can safely run `rcup` multiple times to update:
 
     rcup
+
+
+
+
+##Thanks
+* Thoughtbot
