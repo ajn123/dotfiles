@@ -44,6 +44,10 @@ You can safely run `rcup` multiple times to update:
     rcup
 
 
+Github
+----------------
+    
+    git config credential.helper store; Run for passwordless https
 
 
 ##Thanks
