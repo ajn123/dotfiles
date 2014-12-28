@@ -158,3 +158,5 @@
 	email = ajn123@vt.edu
 [github]
 	user = ajn123
+[credential]
+	helper = osxkeychain
