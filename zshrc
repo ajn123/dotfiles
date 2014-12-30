@@ -90,15 +90,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-function battery_charge {
-    echo `$BAT_CHARGE` 2>/dev/null
-}
-
-
- RPROMPT='$(battery_charge)'
-
-
-
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
