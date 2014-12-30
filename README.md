@@ -1,6 +1,7 @@
 AJ dotfiles
 ===================
-![image](https://cloud.githubusercontent.com/assets/2382277/5580465/e974f4fa-9018-11e4-9949-49b5a2351ca6.png)
+
+![image](https://cloud.githubusercontent.com/assets/2382277/5580529/f0598262-9019-11e4-99a6-171694f54413.png)
 
 Requirements
 ------------
