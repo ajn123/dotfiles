@@ -51,4 +51,4 @@ Github
 
 
 ##Thanks
-* Thoughtbot
+* [Thoughtbot](http://thoughtbot.com/)
