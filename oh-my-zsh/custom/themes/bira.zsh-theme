@@ -17,7 +17,7 @@ local batter_charge='$(battery)%{$reset_color%}'
 
 local mybattery="$(battery)"
 
-PROMPT="╭─${user_host} ${current_dir} ${git_branch} ${mybattery/\%/%%}
+PROMPT="╭─${user_host} ${current_dir} ${git_branch} 
 ╰─%B$%b "
 RPS1="${return_code}"
 
