@@ -13,8 +13,6 @@ else
 fi
 local git_branch='$(git_prompt_info)%{$reset_color%}'
 
-local batter_charge='$(battery)%{$reset_color%}'
-
 local mybattery="$(battery)"
 
 PROMPT="╭─${user_host} ${current_dir} ${git_branch} 
