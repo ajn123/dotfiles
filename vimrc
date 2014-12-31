@@ -38,7 +38,7 @@ set shiftwidth=2
 set shiftround
 set expandtab
 
-
+" To split a pan in vim do :vsp <filename>, to vertically split vim
 " Easier split navigations, see
 " http://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally
 nnoremap <C-J> <C-W><C-J>
