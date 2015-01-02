@@ -55,9 +55,9 @@ Github
 
 Aliases
 ---------------
-* .. 
-* ...
-* ....
+* ..   = cd ..
+* ...  = cd ../..
+* .... = cd ../../..
 * g = git
 * update = update homebrow and npm packages
 * p = cd ~/projects
