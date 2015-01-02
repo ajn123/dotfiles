@@ -59,6 +59,7 @@ Aliases
 * ...  = cd ../..
 * .... = cd ../../..
 * g = git
+* 'g lg' = formatted git log
 * update = update homebrow and npm packages
 * p = cd ~/projects
 * j = jobs
@@ -68,6 +69,8 @@ Aliases
 * capd = cap deploy
 * reload = reload the shell
 * shutdown = shutdown the computer
+* hidedesktop = hide all desktop icons for presentations
+* showdesktop = opposite of above
 
 
 ##Thanks
