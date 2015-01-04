@@ -55,23 +55,24 @@ Github
 
 Aliases
 ---------------
-* ..   = cd ..
-* ...  = cd ../..
-* .... = cd ../../..
-* g = git
-* 'g lg' = formatted git log
-* update = update homebrow and npm packages
-* p = cd ~/projects
-* j = jobs
-* m = migrate
-* s = rspec
-* rk = rake
-* capd = cap deploy
-* reload = reload the shell
-* shutdown = shutdown the computer
-* hidedesktop = hide all desktop icons for presentations
-* showdesktop = opposite of above
-
+```
+ ..   # cd ..
+ ...  # cd ../..
+ .... # cd ../../..
+ g # git
+ g lg # formatted git log
+ update # update homebrow and npm packages
+ p # cd ~/projects
+ j # jobs
+ m # migrate
+ s # rspec
+ rk # rake
+ capd # cap deploy
+ reload # reload the shell
+ shutdown # shutdown the computer
+ hidedesktop # hide all desktop icons for presentations
+ showdesktop # opposite of above
+```
 
 ##Thanks
 * [Thoughtbot](http://thoughtbot.com/)
