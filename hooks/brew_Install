@@ -65,7 +65,6 @@ brew install battery;
 brew install spark;
 brew install z;
 
-brew install homebrew/versions/lua52
-
+brew install tmux;
 # Remove outdated versions from the cellar
 brew cleanup;
