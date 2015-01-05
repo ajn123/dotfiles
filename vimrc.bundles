@@ -2,7 +2,6 @@ if &compatible
   set nocompatible
 end
 
-filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
@@ -47,6 +46,4 @@ syntax enable
 ""colorscheme solarized
 "#############################
 
-
 colorscheme molokai
-filetype on

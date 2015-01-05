@@ -1,7 +1,6 @@
 AJ dotfiles
 ===================
 
-
 ![image](https://cloud.githubusercontent.com/assets/2382277/5582048/29b76fee-9031-11e4-83a1-e5a8ceb92c75.png)
 
 Requirements
@@ -73,6 +72,12 @@ Aliases
  hidedesktop # hide all desktop icons for presentations
  showdesktop # opposite of above
 ```
+Vim
+-------------
+```
+CTRL-X CTRL-O # ruby completion while in insert
+```
+
 
 ##Thanks
 * [Thoughtbot](http://thoughtbot.com/)

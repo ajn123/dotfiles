@@ -1,6 +1,11 @@
-" Use Vim settings, rather then Vi settings. This setting must be as early as
 " possible, as it has side effects.
-set nocompatible
+
+set nocompatible      " We're running Vim, not Vi!
+syntax on             " Enable syntax highlighting
+filetype on           " Enable filetype detection
+filetype indent on    " Enable filetype-specific indenting
+filetype plugin on    " Enable filetype-specific plugins
+
 
 "automaticlly reload .vimrc when saved
 au BufWritePost .vimrc so ~/.vimrc 
@@ -50,3 +55,10 @@ nnoremap <C-H> <C-W><C-H>
 " Vim’s default:
 set splitbelow
 set splitright
+
+" compiler plugin
+autocmd FileType ruby compiler ruby
+
+
+
+
