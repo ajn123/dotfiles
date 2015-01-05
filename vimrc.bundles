@@ -31,9 +31,7 @@ Plugin 'vim-scripts/tComment'
 Plugin 'tomasr/molokai'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'  " For gists
-Plugin 'Shougo/neocomplcache.vim'
-
-Plugin 'vim-scripts/AutoComplPop' " for auto complete
+Plugin 'Raimondi/delimitMate'
 
 Bundle 'Valloric/YouCompleteMe'
 
