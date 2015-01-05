@@ -31,7 +31,11 @@ Plugin 'vim-scripts/tComment'
 Plugin 'tomasr/molokai'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'  " For gists
+Plugin 'Shougo/neocomplcache.vim'
 
+Plugin 'vim-scripts/AutoComplPop' " for auto complete
+
+Bundle 'Valloric/YouCompleteMe'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
@@ -47,3 +51,10 @@ syntax enable
 "#############################
 
 colorscheme molokai
+
+
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1 
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+
+
