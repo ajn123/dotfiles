@@ -3,8 +3,15 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
+
+## Colorize the grep command output for ease of use (good for log files)##)
+alias grep='grep --color=auto'
+
+alias now='date +"%T"'
 
 # Shortcuts
 alias d="cd ~/Documents"
