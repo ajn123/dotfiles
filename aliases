@@ -13,6 +13,9 @@ alias grep='grep --color=auto'
 
 alias now='date +"%T"'
 
+ 
+alias ports='netstat -tulanp'
+
 # Shortcuts
 alias d="cd ~/Documents"
 alias dl="cd ~/Downloads"
