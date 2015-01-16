@@ -78,6 +78,10 @@ Vim
 -------------
 ```
 CTRL-X CTRL-O # ruby completion while in insert
+Gist # public gist
+Gist -a # anonymous gist
+Gist -d # delete a gist
+Gist -b # Open the gist on browser after you post or update it.
 ```
 
 
