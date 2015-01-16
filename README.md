@@ -87,3 +87,5 @@ Gist -b # Open the gist on browser after you post or update it.
 
 ##Thanks
 * [Thoughtbot](http://thoughtbot.com/)
+* Vundle
+* Rake
