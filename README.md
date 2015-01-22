@@ -82,6 +82,10 @@ Gist # public gist
 Gist -a # anonymous gist
 Gist -d # delete a gist
 Gist -b # Open the gist on browser after you post or update it.
+<LEADER> l  # next tab
+<LEADER> h # next tab
+<LEADER> T # new tab
+<LEADER> bq # delete tab
 ```
 
 

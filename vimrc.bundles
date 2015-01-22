@@ -32,6 +32,7 @@ Plugin 'tomasr/molokai'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'  " For gists
 Plugin 'Raimondi/delimitMate'
+Plugin 'bling/vim-airline'
 
 Bundle 'Valloric/YouCompleteMe'
 
@@ -55,4 +56,5 @@ autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
-
+" for vim-airline tabline
+let g:airline#extensions#tabline#enabled = 1
