@@ -86,6 +86,7 @@ Gist -b # Open the gist on browser after you post or update it.
 <LEADER> h # next tab
 <LEADER> T # new tab
 <LEADER> bq # delete tab
+ctrl-p # open up through files
 ```
 
 
