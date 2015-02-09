@@ -27,7 +27,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/matchit.zip'
-"Plugin 'vim-scripts/tComment'
+Plugin 'vim-scripts/tComment'
 Plugin 'tomasr/molokai'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'  " For gists
