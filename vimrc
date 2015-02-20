@@ -84,4 +84,7 @@ nmap <leader>bl :ls<CR>
 
 
 
+" Automatic text wrapping
+set tw=80
+set formatoptions+=t
 
