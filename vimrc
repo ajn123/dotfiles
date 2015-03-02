@@ -85,6 +85,13 @@ nmap <leader>bl :ls<CR>
 
 
 " Automatic text wrapping
-set tw=80
-set formatoptions+=t
+set tw=80 " text-with to 80 chars
+set formatoptions+=t " automatically wrap around white space
+
+" Spell Check
+set spell spelllang=en_us
+
+
+
+
 
