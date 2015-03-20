@@ -62,6 +62,7 @@ Aliases
  .... # cd ../../..
  g # git
  g lg # formatted git log
+ gh  # open github repo (only works if remote repo given)
  update # update homebrow and npm packages
  p # cd ~/projects
  j # jobs
