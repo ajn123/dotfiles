@@ -73,6 +73,7 @@ Aliases
  shutdown # shutdown the computer
  hidedesktop # hide all desktop icons for presentations
  showdesktop # opposite of above
+ top # show most cpu intensive processes
 ```
 Vim
 -------------
