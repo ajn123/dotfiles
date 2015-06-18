@@ -91,6 +91,7 @@ set formatoptions+=t " automatically wrap around white space
 " Spell Check
 set spell spelllang=en_us
 
+set nopaste
 
 
 
