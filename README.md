@@ -50,7 +50,7 @@ You can safely run `rcup` multiple times to update:
 Mac
 -----------------------------
 ##Zoom
-    Accessibility > Zoom
+  Accessibility > Zoom > Use scroll gesture to zoom: ^ Control
 
 ##Vim
     :PluginInstall # Use While in Vim to install plugins    
