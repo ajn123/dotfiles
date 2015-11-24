@@ -55,10 +55,10 @@ Mac
 ##Vim
     :PluginInstall # Use While in Vim to install plugins    
 '''
-  # install YouCompleteMe Plugin, you need vim 7.4+ ;
-  cd ~/.vim/bundle/YouCompleteMe;
-  brew install CMake;
-  python install.py;
+    # install YouCompleteMe Plugin, you need vim 7.4+ ;
+    cd ~/.vim/bundle/YouCompleteMe;
+    brew install CMake;
+    python install.py;
 
 '''
 
