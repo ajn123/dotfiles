@@ -47,6 +47,13 @@ You can safely run `rcup` multiple times to update:
 
     rcup
 
+Mac
+-----------------------------
+##Zoom
+    Accessibility > Zoom
+
+##Vim
+    :PluginInstall # Use While in Vim to install plugins    
 
 Github
 ----------------
