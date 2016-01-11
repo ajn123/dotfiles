@@ -7,6 +7,8 @@ task :install do
   install_vundle
   start_up
   system %Q{rcup}
+  install_you_complete_me
+  github_setup
 end
 
 
@@ -46,6 +48,17 @@ def install_vundle
    system %Q{git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim}
    system %Q{vim -u $HOME/.vimrc.bundles +BundleInstall +qa}
 end
+
+def install_you_complete_me
+  system %Q{cd ~/.vim/bundle/YouCompleteMe;}
+  system %Q{brew install CMake;}
+  system %Q{python install.py;}
+end
+
+def github_setup
+  system %Q{ git config credential.helper store;}
+end
+
 
 def start_up
   system %Q{ \\curl -sSL https://get.rvm.io | bash -s stable --ruby} # rvm
