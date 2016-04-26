@@ -78,6 +78,9 @@ Aliases
  g # git
  g lg # formatted git log
  gh  # open github repo (only works if remote repo given)
+ g hist = lists history of one week
+ g type <COMMIT> type of commit
+ g dump <COMMIT> list stats 
  update # update homebrow and npm packages
  p # cd ~/projects
  j # jobs
