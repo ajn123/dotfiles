@@ -26,6 +26,7 @@ alias h="history"
 alias j="jobs"
 alias cl='clear' # ctrl + L is probably faster though
 alias top='top -o cpu' # execute top ordered by the post intensive cpu programs
+alias rmd='rm -rf'
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"

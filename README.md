@@ -87,6 +87,7 @@ Aliases
  m # migrate
  s # rspec
  rk # rake
+ rmd # remove directory
  capd # cap deploy
  reload # reload the shell
  shutdown # shutdown the computer
