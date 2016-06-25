@@ -14,6 +14,7 @@ au BufWritePost .vimrc so ~/.vimrc
 " Leader
 let mapleader = " "
 
+set runtimepath+=~/.vim/bundle/vim-snipmate/after
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
 set nowritebackup
