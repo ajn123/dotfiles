@@ -28,7 +28,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/tComment'
-Plugin 'tomasr/molokai'
+Plugin 'pR0Ps/molokai-dark'
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'  " For gists
 Plugin 'Raimondi/delimitMate'
@@ -39,7 +39,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 
-Bundle 'Valloric/YouCompleteMe'
+"  Bundle 'Valloric/YouCompleteMe'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
@@ -54,7 +54,7 @@ syntax enable
 ""colorscheme solarized
 "#############################
 
-colorscheme molokai
+colorscheme molokai-dark
 
 
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1 
