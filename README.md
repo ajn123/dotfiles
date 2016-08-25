@@ -110,6 +110,21 @@ Gist -b # Open the gist on browser after you post or update it.
 ctrl-p # open up through files
 ```
 
+Tmux
+------------
+```
+C-a # Ctrl -a is my prefix key
+M-(arrow_key) # switch panes with Alt 
+r  # reload tmux.conf
+$ # name session
+% # split vertically
+" # split horizontally
+
+
+```
+
+
+
 
 ##Thanks
 * [Thoughtbot](http://thoughtbot.com/)
