@@ -16,3 +16,4 @@ brew cask install alfred;
 brew cask install dash;
 brew cask install spectacle;
 brew cask install onepassword;
+brew cask install mactex;
