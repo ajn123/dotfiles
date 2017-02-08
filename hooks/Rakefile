@@ -9,6 +9,8 @@ task :install do
   system %Q{rcup}
   install_you_complete_me
   github_setup
+  vim_setup
+  system %Q{reload}
 end
 
 
@@ -68,4 +70,8 @@ def start_up
   system %Q{env RCRC=$HOME/dotfiles/rcrc rcup}
   system %Q{sh brew_Install}
   system %Q{sh cask_Install}
+end
+
+def vim_setup
+  system %Q{vim +PluginInstall +qall}
 end
