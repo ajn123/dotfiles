@@ -94,6 +94,9 @@ Aliases
  hidedesktop # hide all desktop icons for presentations
  showdesktop # opposite of above
  top # show most cpu intensive processes
+ ip # find your IP address
+ localip
+ ips
 ```
 Vim
 -------------
