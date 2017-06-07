@@ -113,6 +113,10 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 # Terminal & iTerm 2                                                          #
 ###############################################################################
 
+# faster cursor speed
+defaults write NSGlobalDomain KeyRepeat -int 0
+
+
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 
