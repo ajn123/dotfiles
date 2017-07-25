@@ -1,3 +1,1 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+/Users/alexnorton/dotfiles/atom/packages/rails-snippets/CHANGELOG.md

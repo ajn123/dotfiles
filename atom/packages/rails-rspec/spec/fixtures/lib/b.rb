@@ -1,0 +1,1 @@
+/Users/alexnorton/dotfiles/atom/packages/rails-rspec/spec/fixtures/lib/b.rb

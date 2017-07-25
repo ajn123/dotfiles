@@ -1,9 +1,1 @@
-class MyClass1
-  def    self.method1()
-  end
-
-  def self.class_method1
-  end
-end
-
-def goToDefinition
+/Users/alexnorton/dotfiles/atom/packages/go-to-definition-rails/spec/fixtures/test_1.rb

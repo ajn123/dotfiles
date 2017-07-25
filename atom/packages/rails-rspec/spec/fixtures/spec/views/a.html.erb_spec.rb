@@ -1,0 +1,1 @@
+/Users/alexnorton/dotfiles/atom/packages/rails-rspec/spec/fixtures/spec/views/a.html.erb_spec.rb
