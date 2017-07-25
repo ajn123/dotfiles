@@ -6,3 +6,5 @@
     fontSize: 15
   "exception-reporting":
     userId: "3dfd69e4-b9b9-4806-90c8-543fb9a71215"
+  "package-sync":
+    createOnChange: true

@@ -1,0 +1,16 @@
+packages: [
+  "advanced-open-file"
+  "bug-report"
+  "emmet"
+  "highlight-line"
+  "language-generic-config"
+  "linter-ruby"
+  "minimap"
+  "monokai"
+  "package-sync"
+  "rails-partials"
+  "rails-rspec"
+  "rails-snippets"
+  "red-wavy-underline"
+  "ruby-block"
+]

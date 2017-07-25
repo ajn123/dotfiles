@@ -1,1 +1,0 @@
-/Users/alexnorton/dotfiles/atom/packages/go-to-definition-rails/spec/fixtures/test_1.rb

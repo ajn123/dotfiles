@@ -1,1 +1,0 @@
-/Users/alexnorton/dotfiles/atom/packages/rails-rspec/spec/rails-rspec-spec.coffee

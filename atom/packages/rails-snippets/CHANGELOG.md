@@ -1,1 +1,0 @@
-/Users/alexnorton/dotfiles/atom/packages/rails-snippets/CHANGELOG.md

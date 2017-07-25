@@ -1,1 +1,0 @@
-/Users/alexnorton/dotfiles/atom/packages/go-to-definition-rails/lib/go-to-definition-rails.coffee
