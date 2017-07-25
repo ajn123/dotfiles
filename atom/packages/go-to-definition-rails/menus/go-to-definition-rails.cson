@@ -1,0 +1,26 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle go-to-definition-rails'
+      'command': 'go-to-definition-rails:goToDefinition'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Rails'
+      'submenu': [
+        {
+          'label': 'Go To Method Definition'
+          'command': 'go-to-definition-rails:goToMethodDefinition'
+        },
+        {
+          'label': 'Go To Class Method Definition'
+          'command': 'go-to-definition-rails:goToClassMethodDefinition'
+        }
+      ]
+    ]
+  }
+]

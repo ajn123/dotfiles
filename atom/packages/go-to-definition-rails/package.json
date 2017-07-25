@@ -1,0 +1,80 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+        "spec": "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/apm-install-dir-117625-4963-1bc8p4m.teryue4s4i"
+    ]
+  ],
+  "_from": "../d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+  "_id": "go-to-definition-rails@2.2.0",
+  "_inCache": true,
+  "_location": "/go-to-definition-rails",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+    "spec": "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+  "_shasum": "89689e82facaac1bdb85e940cfc582fbdfe25ff2",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/d-117625-4963-13uf27u.2yq5lsdcxr/package.tgz",
+  "_where": "/private/var/folders/j0/4cg20lhn7p91v13ss51tz5zw0000gn/T/apm-install-dir-117625-4963-1bc8p4m.teryue4s4i",
+  "activationCommands": {
+    "atom-workspace": [
+      "go-to-definition-rails:goToMethodDefinition",
+      "go-to-definition-rails:goToClassMethodDefinition"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/Oxyless/go-to-definition-rails/issues"
+  },
+  "dependencies": {},
+  "description": "Allow user to go to ruby definition",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Oxyless/go-to-definition-rails#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/go-to-definition-rails",
+  "name": "go-to-definition-rails",
+  "optionalDependencies": {},
+  "readme": "# go-to-definition-rails package\n\nAllow user to go to ruby method definition ('alt-cmd-enter') and class method definition ('ctrl-alt-cmd-enter') without ctags.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oxyless/go-to-definition-rails.git"
+  },
+  "version": "2.2.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/go-to-definition-rails-view.coffee",
+        "lib/go-to-definition-rails.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

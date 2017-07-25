@@ -17,3 +17,4 @@ brew cask install dash;
 brew cask install spectacle;
 brew cask install onepassword;
 brew cask install mactex;
+brew cask install atom; 

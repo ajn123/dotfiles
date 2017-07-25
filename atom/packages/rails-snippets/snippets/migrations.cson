@@ -1,0 +1,51 @@
+# all migration snippets starts with `db`
+'.source.ruby, .source.ruby.rails':
+
+  'create_table':
+    'prefix': 'dbct'
+    'body': """
+      create_table :${1:table_name} do |t|
+        t.${2:string} :${3:name}
+      end
+    """
+
+  'add_column':
+    'prefix': 'dbac'
+    'body': 'add_column :${1:table_name}, :${2:column_name}, :${3:type}, ${4:default: ${5::value}}'
+
+  'drop_table':
+    'prefix': 'dbdt'
+    'body': 'drop_table :${1:table_name}'
+
+  'rename_table':
+    'prefix': 'dbrt'
+    'body': 'rename_table :${1:old_table_name}, :${2:new_table_name}'
+
+  'rename_column':
+    'prefix': 'dbrnc'
+    'body': 'rename_column :${1:table_name}, :${2:column_name}, :${3:new_column_name}'
+
+  'remove_column':
+    'prefix': 'dbrmc'
+    'body': 'remove_column :${1:table_name}, :${2:column_name}'
+
+  'change_column':
+    'prefix': 'dbcc'
+    'body': 'change_column :${1:table_name}, :${2:column_name}, :${3:type}, ${4:default: 0}'
+
+  'add_index':
+    'prefix': 'dbai'
+    'body': 'add_index :${1:table_name}, :${2:column_name}${3:, {$4}}'
+
+  'add_foreign_key':
+    'prefix': 'dbafk'
+    'body': 'add_foreign_key :${1:from_table}, :${2:to_table}${3:, options = {}}'
+
+  'remove_foreign_key':
+    'prefix': 'dbrfk'
+    'body': 'remove_foreign_key :${1:from_table}, column: :${2:model_id}'
+
+  'change_default':
+    'prefix': 'dbcd'
+    'description': 'change_column_default(table_name, column_name, default)'
+    'body': "change_column_default :${1:table_name}, :${2:column_name}, ${3:'new_default'}"

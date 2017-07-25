@@ -1,0 +1,132 @@
+# Snippets shared across all ruby html.* sources
+# This snippets are invoked inside ruby blocks in views
+#
+# view.html.haml
+# %html
+#   = lt[tab]
+#
+# view.html.erb
+# <html>
+#   <%= lt[tab] %>
+# </html>
+
+'.text.html.erb > .embedded.line.erb > .source.ruby,
+.text.html.erb > .embedded.line.erb > .embedded.end.erb,
+.text.html.ruby > .embedded,
+.text.haml > .line.ruby.haml > .source.ruby,
+.text.haml > .line.ruby.haml > .source.ruby.embedded.html,
+.embedded.ruby':
+
+  'embedded image_tag':
+    'prefix': 'image'
+    'body': 'image_tag "${1:logo}"$0'
+
+  'embedded link_to':
+    'prefix': 'lt'
+    'description': 'link_to(name = nil, options = nil, html_options = nil, &block)'
+    'descriptionMoreUrl': 'http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html#method-i-link_to'
+    'body': 'link_to "${1:text}", ${2:"#"}, ${4:class: "${3:btn btn-primary}"}$0'
+
+  'embedded_fa_link':
+    'prefix': 'ltf'
+    'description': "link_to(fa_icon('user'), ... )"
+    'body': 'link_to fa_icon("${1:search}"${2:, ${3:text}: "${4:Buscar}"}), ${5:"#"}'
+
+  'embedded link_to bst-tooltip':
+    'prefix': 'ltt'
+    'description': "link_to( ..., data: { toggle: :tooltip, title: :title } )"
+    'body': 'link_to "${1:text}", ${2:"#"}, ${4:class: "${3:btn btn-primary}"}, data: {toogle: :tooltip, title: "$5" }$0'
+
+  'embedded_font_awesome_icon':
+    'prefix': 'fa'
+    'body': 'fa_icon("${1:search}"${2:, text: "${3:Buscar}"})$0'
+
+  'embedded_number_to_currency':
+    'prefix': 'ntc'
+    'body': 'number_to_currency $0'
+
+  'embedded_number_to_human':
+    'prefix': 'nth'
+    'body': 'number_to_human $0'
+
+  'embedded_number_to_human_size':
+    'prefix': 'nths'
+    'body': 'number_to_human_size $0'
+
+  'embedded_number_to_percentage':
+    'prefix': 'ntp'
+    'body': 'number_to_percentage $0'
+
+  'data attributes':
+    'prefix': 'data'
+    'description': "data: { key: :value }"
+    'body': 'data: { ${1:key}: ${2:value} }$0'
+
+  'data toggle-tooltip attributes':
+    'prefix': 'datatt'
+    'description': "data: { toggle: :tooltip, title: 'title' }"
+    'body': 'data: { toggle: :tooltip, title: "$1" }$0'
+
+  'data turbolinks false':
+    'prefix': 'datatl'
+    'description': "data: { turbolinks: :false }"
+    'body': 'data: { turbolinks: :${1:false} }$0'
+
+  'method':
+    'prefix': 'method'
+    'body': 'method: :${1:post}$0'
+
+  'class key-value':
+    'prefix': 'class'
+    'description': "class: 'class'"
+    'body': 'class: "${1:btn}"$0'
+
+  'id key-value':
+    'prefix': 'id'
+    'description': "id: 'id'"
+    'body': 'id: "${1:nav}"$0'
+
+  'style key-value':
+    'prefix': 'style'
+    'description': "style: 'cssprop: value;'"
+    'body': 'style: "${1:display: none;}"$0'
+
+  'toggle key-value':
+    'prefix': 'toggle'
+    'description': "toggle: :tooltip"
+    'body': 'toggle: ${1:tooltip}$0'
+
+  'title key-value':
+    'prefix': 'title'
+    'description': "title: :hola"
+    'body': 'title: ${1:hola}$0'
+
+  'placeholder key-value':
+    'prefix': 'ph'
+    'description': "placeholder: 'hi'"
+    'body': 'placeholder: "$1"$0'
+
+  'turbolinks key-value':
+    'prefix': 'dtl'
+    'description': 'turbolinks: :false'
+    'body': 'turbolinks: :${1:false}$0'
+
+  'remote true key-value':
+    'prefix': 'remote'
+    'description': 'remote: true'
+    'body': 'remote: true$0'
+
+  'toggle-tooltip key-value':
+    'prefix': 'dtt'
+    'description': "toggle: :tooltip, title: 'hi'"
+    'body': 'toggle: :tooltip, title: ${2:"${1:Hola!}"}$0'
+
+  'I18n.t':
+    'prefix': "18t"
+    'description': 'I18n.t("key")'
+    'body': 'I18n.t("$1:{search}")'
+
+  'I18n.l':
+    'prefix': '18l'
+    'description': 'I18n.l(date)'
+    'body': 'I18n.l(${1:${2:DateTime.now}, format: ${3:short}}})$0'
