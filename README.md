@@ -124,11 +124,12 @@ $ # name session
 " # split horizontally
 
 
+```
 Atom
 ------------
+```
 Command + Shift + P = Show New Commands
 Command + ,  = Settings
-
 ```
 
 
