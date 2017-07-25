@@ -127,6 +127,7 @@ $ # name session
 Atom
 ------------
 Command + Shift + P = Show New Commands
+Command + ,  = Settings
 
 ```
 
