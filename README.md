@@ -20,7 +20,7 @@ Clone onto your laptop:
     git clone git://github.com/ajn123/dotfiles.git
 
 For mac:
-    
+
     cd hooks;
     rake install;
 
@@ -65,7 +65,7 @@ Mac
 
 Github
 ----------------
-    
+
     git config credential.helper store; Run for passwordless https
 
 
@@ -80,7 +80,7 @@ Aliases
  gh  # open github repo (only works if remote repo given)
  g hist = lists history of one week
  g type <COMMIT> type of commit
- g dump <COMMIT> list stats 
+ g dump <COMMIT> list stats
  update # update homebrow and npm packages
  p # cd ~/projects
  j # jobs
@@ -117,7 +117,7 @@ Tmux
 ------------
 ```
 C-a # Ctrl -a is my prefix key
-M-(arrow_key) # switch panes with Alt 
+M-(arrow_key) # switch panes with Alt
 r  # reload tmux.conf
 $ # name session
 % # split vertically
@@ -130,6 +130,7 @@ Atom
 ```
 Command + Shift + P = Show New Commands
 Command + ,  = Settings
+
 ```
 
 
