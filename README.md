@@ -146,3 +146,4 @@ Command + ,  = Settings
 * [Thoughtbot](http://thoughtbot.com/)
 * Vundle
 * Rake
+* Atom
