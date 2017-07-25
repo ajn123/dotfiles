@@ -135,7 +135,7 @@ Command + ,  = Settings
 
 
 
-##Thanks
+## Thanks
 * [Thoughtbot](http://thoughtbot.com/)
 * Vundle
 * Rake
