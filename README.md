@@ -127,6 +127,12 @@ $ # name session
 ```
 Atom
 ------------
+Link Packages to Atom:
+```
+ ln -s ~/.atom/packages ~/.dotfiles/atom/packages
+```
+
+
 ```
 Command + Shift + P = Show New Commands
 Command + ,  = Settings
