@@ -123,7 +123,11 @@ $ # name session
 % # split vertically
 " # split horizontally
 
-
+Vim Snippets
+-------------
+ead - ERB each loop
+ff - form_for
+ife - if and else ruby statement
 ```
 Atom
 ------------

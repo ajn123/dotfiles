@@ -25,10 +25,11 @@
       "monokai"
     ]
   editor:
-    fontSize: 17
+    fontSize: 6
   "exception-reporting":
     userId: "3dfd69e4-b9b9-4806-90c8-543fb9a71215"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    panelHeight: 69
   "package-sync":
     createOnChange: true
     forceOverwrite: true
