@@ -49,10 +49,10 @@ You can safely run `rcup` multiple times to update:
 
 Mac
 -----------------------------
-##Zoom
+## Zoom
   Accessibility > Zoom > Use scroll gesture to zoom: ^ Control
 
-##Vim
+## Vim
     :PluginInstall # Use While in Vim to install plugins    
 
 
@@ -122,9 +122,10 @@ r  # reload tmux.conf
 $ # name session
 % # split vertically
 " # split horizontally
-
+```
 Vim Snippets
 -------------
+```
 ead - ERB each loop
 ff - form_for
 ife - if and else ruby statement
