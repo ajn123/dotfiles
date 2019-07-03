@@ -36,6 +36,7 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias update='brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
 
 
+alias ls='ls -lt'
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
