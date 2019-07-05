@@ -60,6 +60,8 @@ Mac
     cd ~/.vim/bundle/YouCompleteMe;
     brew install CMake;
     python install.py;
+    :sp filename #horizontal pane
+    :vsp filename #vertical pane
 
 
 
