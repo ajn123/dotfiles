@@ -132,6 +132,12 @@ ead - ERB each loop
 ff - form_for
 ife - if and else ruby statement
 ```
+Emmet Plugin Example
+-------------
+[Examples Here](https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/)
+
+
+
 Atom
 ------------
 Link Packages to Atom:
