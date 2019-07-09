@@ -62,6 +62,7 @@ brew install zopfli;
 
 
 brew install postgres; 
+brew install neovim;
 
 brew tap Goles/battery;
 brew install battery;
