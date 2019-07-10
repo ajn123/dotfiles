@@ -138,6 +138,9 @@ Emmet Plugin Example
     
 [Examples Here](https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/)
 
+Dash Plugin Example
+------------
+* [Dash API Documentation](https://raw.githubusercontent.com/rizzatti/dash.vim/master/doc/dash.txt)
 
 
 Atom
