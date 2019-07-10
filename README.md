@@ -134,7 +134,7 @@ ife - if and else ruby statement
 ```
 Emmet Plugin Example
 -------------
-* Write expression, then <Ctrl-y> + ,
+* Write expression, then Ctrl-y + ,
     
 [Examples Here](https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/)
 
