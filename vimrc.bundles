@@ -41,6 +41,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'mattn/emmet-vim'
 Plugin 'rizzatti/dash.vim'
+Plugin 'morhetz/gruvbox'
 
 "  Bundle 'Valloric/YouCompleteMe'
 
@@ -50,14 +51,13 @@ endif
 
 call vundle#end()
 filetype plugin indent on    " required
+colorscheme gruvbox
 "For Vim solarized
 syntax enable
 ""let g:solarized_termcolors=256
 "set background=dark
 ""colorscheme solarized
 "#############################
-
-colorscheme molokai-dark
 
 
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1 
@@ -66,6 +66,18 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 " for vim-airline tabline
 let g:airline#extensions#tabline#enabled = 1
+
+
+
+" For vim-multiple-cursors
+let g:multi_cursor_quit_key            = '<C-s>'
+let g:multi_cursor_quit_key            = '<C-s>'
+let g:multi_cursor_exit_from_visual_mode = 1
+let g:multi_cursor_exit_from_insert_mode = 1
+
+
+
+
 
 
 
