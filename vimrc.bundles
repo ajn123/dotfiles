@@ -73,7 +73,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 let g:airline#extensions#tabline#enabled = 1
 
 
-
 " For vim-multiple-cursors
 let g:multi_cursor_quit_key            = '<C-s>'
 let g:multi_cursor_quit_key            = '<C-s>'
@@ -86,6 +85,8 @@ let g:multi_cursor_exit_from_insert_mode = 1
 nnoremap <silent> <C-P> :Files<CR>
 
 
+" ale only lint on saves
+let g:ale_lint_on_text_changed = 'never'
 
 
 
