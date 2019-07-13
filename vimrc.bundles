@@ -15,7 +15,9 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'pbrisbin/vim-mkdir'
-Plugin 'scrooloose/syntastic'
+" Replacing sytastic with ale
+"Plugin 'scrooloose/syntastic'
+Plugin 'w0rp/ale'
 Plugin 'slim-template/vim-slim'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-bundler'
@@ -29,7 +31,9 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'vim-scripts/tComment'
-Plugin 'pR0Ps/molokai-dark'
+" for molokai dark theme
+" Plugin 'pR0Ps/molokai-dark'
+
 Plugin 'mattn/webapi-vim'
 Plugin 'mattn/gist-vim'  " For gists
 Plugin 'Raimondi/delimitMate'
