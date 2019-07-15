@@ -68,6 +68,7 @@ brew tap Goles/battery;
 brew install battery;
 brew install spark;
 brew install z;
+brew install bat;
 
 brew install tmux;
 # Remove outdated versions from the cellar

@@ -19,3 +19,6 @@ brew cask install onepassword;
 brew cask install mactex;
 brew cask install atom; 
 brew cask install docker;
+
+brew tap homebrew/cask-fonts;
+brew cask install font-hack-nerd-font;
