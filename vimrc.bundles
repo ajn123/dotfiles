@@ -40,7 +40,7 @@ Plugin 'Raimondi/delimitMate'
 Bundle 'Rip-Rip/clang_complete'
 Plugin 'bling/vim-airline'
 Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
+"Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'terryma/vim-multiple-cursors'
@@ -50,6 +50,9 @@ Plugin 'morhetz/gruvbox'
 
 " For icons on file types
 Plugin 'ryanoasis/vim-devicons'
+
+" For startup screen
+Plugin 'mhinz/vim-startify'
 
 "  Bundle 'Valloric/YouCompleteMe'
 
