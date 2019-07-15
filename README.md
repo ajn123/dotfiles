@@ -124,6 +124,15 @@ r  # reload tmux.conf
 $ # name session
 % # split vertically
 " # split horizontally
+x # kill pane
+_ # (SPACE) - toggle between layouts
+
+
+& # kills the window (exits tmux)
+
+tmux ls # list sessions
+tmux new -s myname #start a session
+tmux kill-session -t myname # kill session
 ```
 Vim Snippets
 -------------
