@@ -49,6 +49,8 @@ Plugin 'mattn/emmet-vim'
 Plugin 'rizzatti/dash.vim'
 Plugin 'morhetz/gruvbox'
 
+Plugin 'vimwiki/vimwiki'
+
 " For icons on file types
 Plugin 'ryanoasis/vim-devicons'
 
@@ -151,4 +153,9 @@ map <C-p> :call Fzf_dev()<CR>
 map <C-d> :call Fzf_git_diff_files_with_dev_icons()<CR>
 map <C-g> :call Fzf_files_with_dev_icons("git ls-files \| uniq")<CR>
 map <C-b> :Buffers<CR>
+
+
+" Vim wiki
+let g:vimwiki_list = [{'path': '~/dotfiles/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
