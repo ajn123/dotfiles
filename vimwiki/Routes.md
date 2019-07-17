@@ -1,4 +1,4 @@
-## Additional Resources
+[##](##) Additional Resources
 
 * [Rails Guide on Routing][rails-routing]
 

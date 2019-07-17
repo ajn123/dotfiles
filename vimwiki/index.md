@@ -1,8 +1,6 @@
 Welcome to Alex's Wiki.
 
-
-
-* [Ralis Controllers](Controllers) 
+* [Rails Controllers](Controllers) 
 * [Rails Models](Models)
 * [Active_Record](Active_Record)
 * [RSpec](RSpec)
@@ -16,13 +14,20 @@ Welcome to Alex's Wiki.
 
 # Testing
 * [Rspec](Rspec)
-  # GEMS
-  * [Faker](Faker)
-  * [Devise](Devise)
-  * [Bcrypt](Bcrypt)
 
-
+# Gems
+* [Faker](Faker)
+* [Devise](Devise)
+* [Bcrypt](Bcrypt)
+* [FactoryBot](FactoryBot)
 
 # SQL
 * [Syntax](Sql_Syntax) 
 
+# Curl
+* [Curl examples](Curl_example)
+
+
+
+# Javascript
+* [Vue](Vue)
