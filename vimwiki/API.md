@@ -88,10 +88,10 @@ end
 ```ruby
 def render_404
     respond_to  do |f|
-      format.html do
+      f.html do
         render status: :not_found, layout: false
       end
-      format.json do
+      f.json do
         render status: 404, json: {message: "Not fonud"}
       end
     end

@@ -11,6 +11,7 @@ Welcome to Alex's Wiki.
 * [Forms](Forms)
 * [Layouts](Layouts)
 * [Helpers](Helpers)
+* [Action_Cable](Action_Cable)
 
 # Testing
 * [Rspec](Rspec)
@@ -29,5 +30,13 @@ Welcome to Alex's Wiki.
 
 
 
+# Redis
+* [Intro](Intro)
+
+
 # Javascript
 * [Vue](Vue)
+* [Closure](Closure)
+
+# Ruby
+* [Memoization](Memoization)

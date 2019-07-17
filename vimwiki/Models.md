@@ -93,7 +93,6 @@ class User < ApplicationRecord
 end
 
 class Relationship < ApplicationRecord
-
   belongs_to :follower, class_name: "User"
   belongs_to :followed, class_name: "User"
 end
@@ -114,7 +113,7 @@ end
 
   class Friendship < ApplicationRecord
   	belongs_to :user
-	belongs_to :friend, :class_name => "User"
+    belongs_to :friend, :class_name => "User"
   end
 
 ```
@@ -149,10 +148,7 @@ end
 
 ## HOW TO SCOPE VALIDATIONS
 
-
 ```ruby
  validates :name, uniqueness: { scope: :year,
     message: "should happen once per year" }
 ```
-
-
