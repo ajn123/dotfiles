@@ -5,7 +5,6 @@
  
  ```javascript
  
- 
 functionn createInce(startValue) {
 	return (step) => {
   	 
@@ -15,7 +14,7 @@ functionn createInce(startValue) {
 }
 
 const inc = createInce(5);
-console.log( inc(1));
+console.log(inc(1));
 console.log(inc(2));
 console.log(inc(3));
 

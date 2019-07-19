@@ -2,10 +2,19 @@
 
 # Vue.js Guide
 * https://vuejs.org/v2/guide/list.html
+* https://github.com/flaviocopes/vue-developer-roadmap
 
 # Don't forget to intsall webpacker if you need it!!!
 bundle exec rails webpacker:install
 
+# Action Cable Vue
+```javascript
+  Vue.use(ActionCableVue, {
+    debug: true,
+    debugLevel: 'error',
+    connectionUrl: 'http://localhost:3000/cable'
+  });
+```
 
 # Shortcuts
 
@@ -38,6 +47,22 @@ var webstore = new Vue({
 
 ```
 
+
+# V-Model example
+```javascript
+  <input v-model="items[0].message"></input>
+var example1 = new Vue({
+  el: '#example-1',
+  data: {
+    items: [
+      { message: 'Foo' },
+      { message: 'Bar' }
+    ]
+  }
+})
+``` 
+
+
 # V-For example
 ```javascript
 var example1 = new Vue({
@@ -59,6 +84,18 @@ var example1 = new Vue({
 </ul>
 ```
 ========
+
+
+# Vue Show
+
+
+```javascript
+<div v­show="showMe">
+  <p>Some text</p>
+  <p>Some more text</p> 
+  <p>Even more text</p>
+</div> 
+```
 
 
 # Vue Lifecyle methods

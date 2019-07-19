@@ -43,3 +43,9 @@ class UserToPhotos < ActiveRecord::Migration[5.2]
 end
 
 ```
+
+You can also add Indexes
+
+```ruby
+  add_index :items, :list_id
+```

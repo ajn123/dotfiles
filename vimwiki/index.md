@@ -12,6 +12,12 @@ Welcome to Alex's Wiki.
 * [Layouts](Layouts)
 * [Helpers](Helpers)
 * [Action_Cable](Action_Cable)
+* [Active_Record](Active_Record)
+
+
+# WEB
+* [CSRF](CSRF)
+* [SQL_injection](SQL_injection)
 
 # Testing
 * [Rspec](Rspec)
@@ -40,3 +46,7 @@ Welcome to Alex's Wiki.
 
 # Ruby
 * [Memoization](Memoization)
+
+
+# Poems
+* [The_West_is_at_its_end](The_West_is_at_its_end)

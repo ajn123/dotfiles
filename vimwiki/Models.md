@@ -152,3 +152,25 @@ end
  validates :name, uniqueness: { scope: :year,
     message: "should happen once per year" }
 ```
+
+
+
+You can skip validations with: 
+
+```ruby
+  save(validate: false)
+```
+
+You can associate validations with:
+
+validates_associated :books
+
+
+
+
+
+
+
+
+
+

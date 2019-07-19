@@ -50,5 +50,12 @@ Album.where(release_year: 1960..1969).find_each do |album|
 end
 ```
 
+# Example Queries
+```ruby
+  Person.group(:last_name).having("min(age) > 17").minimum(:age)
+  Person.average(:age) # SELECT AVG(age) FROM people
+  Person.distinct.pluck(:role) # Returns an array of roles that are distinct
+  Person.calculate(:count, :all) # The same as Person.count
+```
 
 
