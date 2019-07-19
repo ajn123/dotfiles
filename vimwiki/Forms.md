@@ -2,6 +2,8 @@
 [requirs](requirs) "#{Rails.root}/app/helpers/application_helper"
 
 
+* [Remote_Forms](http://www.korenlc.com/remote-true-in-rails-forms/)
+
 # Form Helpers
 
 ## REMEMBER: to but the '=' on the form_for

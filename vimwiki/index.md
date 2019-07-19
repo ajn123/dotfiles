@@ -1,5 +1,7 @@
 Welcome to Alex's Wiki.
 
+
+
 * [Rails Controllers](Controllers) 
 * [Rails Models](Models)
 * [Active_Record](Active_Record)
@@ -18,6 +20,9 @@ Welcome to Alex's Wiki.
 # WEB
 * [CSRF](CSRF)
 * [SQL_injection](SQL_injection)
+
+# HTML
+* [Bootstrap](Bootstrap)
 
 # Testing
 * [Rspec](Rspec)
@@ -40,6 +45,8 @@ Welcome to Alex's Wiki.
 * [Intro](Intro)
 
 
+youtube
+
 # Javascript
 * [Vue](Vue)
 * [Closure](Closure)
@@ -50,3 +57,7 @@ Welcome to Alex's Wiki.
 
 # Poems
 * [The_West_is_at_its_end](The_West_is_at_its_end)
+
+
+# Vim/NeoVim
+
