@@ -151,3 +151,9 @@ beforeCreate: function() {
 
 
 ```
+
+
+# V-if and V-Show
+The only real difference is that the v­show directive will 
+always be rendered in the DOM.
+

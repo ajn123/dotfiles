@@ -59,3 +59,45 @@ end
 ```
 
 
+
+# Callbacks
+Callbacks are hooks into the life cycle of an Active Record object that allow 
+you to trigger logic before or after an alteration of the object state. 
+
+(-) save
+(-) valid
+(1) before_validation
+(-) validate
+(2) after_validation
+(3) before_save
+(4) before_create
+(-) create
+(5) after_create
+(6) after_save
+(7) after_commit
+
+
+```ruby
+  class CreditCard < ActiveRecord::Base
+    # Strip everything but digits, so the user can specify "555 234 34" or
+    # "5552-3434" and both will mean "55523434"
+    before_validation(on: :create) do
+      self.number = number.gsub(/[^0-9]/, "") if attribute_present?("number")
+    end
+  end
+
+  class Subscription < ActiveRecord::Base
+    before_create :record_signup
+
+    private
+      def record_signup
+        self.signed_up_on = Date.today
+      end
+  end
+
+  class Firm < ActiveRecord::Base
+    # Disables access to the system, for associated clients and people when the firm is destroyed
+    before_destroy { |record| Person.where(firm_id: record.id).update_all(access: 'disabled')   }
+    before_destroy { |record| Client.where(client_of: record.id).update_all(access: 'disabled') }
+  end
+```

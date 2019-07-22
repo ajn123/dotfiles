@@ -167,7 +167,14 @@ validates_associated :books
 
 
 
-
+# Override methods
+```ruby
+def as_json(*)
+    super.except("created_at", "updated_at").tap do |hash|
+      hash["is_single_day_event"] = single_day_event?
+    end
+  end
+```
 
 
 

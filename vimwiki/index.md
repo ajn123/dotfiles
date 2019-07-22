@@ -1,7 +1,5 @@
 Welcome to Alex's Wiki.
 
-
-
 * [Rails Controllers](Controllers) 
 * [Rails Models](Models)
 * [Active_Record](Active_Record)
@@ -16,13 +14,19 @@ Welcome to Alex's Wiki.
 * [Action_Cable](Action_Cable)
 * [Active_Record](Active_Record)
 
-
 # WEB
 * [CSRF](CSRF)
 * [SQL_injection](SQL_injection)
+* [Rails_Headers](Rails_Headers)
+
+
+# Webpacker
+* [Webpacker](Webpacker)
 
 # HTML
 * [Bootstrap](Bootstrap)
+* [Flex_Box](Flex_Box)
+* [SCSS_SASS](SCSS_SASS)
 
 # Testing
 * [Rspec](Rspec)
@@ -39,13 +43,8 @@ Welcome to Alex's Wiki.
 # Curl
 * [Curl examples](Curl_example)
 
-
-
 # Redis
 * [Intro](Intro)
-
-
-youtube
 
 # Javascript
 * [Vue](Vue)
@@ -54,10 +53,10 @@ youtube
 # Ruby
 * [Memoization](Memoization)
 
-
 # Poems
 * [The_West_is_at_its_end](The_West_is_at_its_end)
 
-
 # Vim/NeoVim
 
+# Git
+* [Git_Commands](Git_Commands)
