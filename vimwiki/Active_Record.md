@@ -26,18 +26,13 @@ clients.each do |client|
 end
 ```
 
-
 -----
-
 
 # WHERE
 
 ```ruby
 User.where.not(name: 'Gabe')
 User.where.not(name: nil)
-
-
-
 ```
 
 ----------

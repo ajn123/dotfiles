@@ -6,7 +6,11 @@ set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
 " Let Vundle manage Vundle
-Plugin 'gmarik/Vundle.vim'
+Plugin 'leafOfTree/vim-vue-plugin'
+
+
+" For Vue.js
+Plugin 'posva/vim-vue'
 
 " Define bundles via Github repos
 Plugin 'christoomey/vim-run-interactive'
@@ -39,6 +43,7 @@ Plugin 'mattn/gist-vim'  " For gists
 Plugin 'Raimondi/delimitMate'
 Bundle 'Rip-Rip/clang_complete'
 Plugin 'bling/vim-airline'
+
 Plugin 'MarcWeber/vim-addon-mw-utils'
 " You need this for snipmate
 Plugin 'tomtom/tlib_vim'
@@ -78,8 +83,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
-" for vim-airline tabline
-let g:airline#extensions#tabline#enabled = 1
 
 
 " For vim-multiple-cursors
@@ -158,4 +161,10 @@ map <C-b> :Buffers<CR>
 " Vim wiki
 let g:vimwiki_list = [{'path': '~/dotfiles/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
+
+
+" vim airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+
 

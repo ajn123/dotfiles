@@ -1,7 +1,8 @@
 Welcome to Alex's Wiki.
 
+#Rails
 * [Rails Controllers](Controllers) 
-* [Rails Models](Models)
+* [Rails Models](Models) [Model_Types](Model_Types)
 * [Active_Record](Active_Record)
 * [RSpec](RSpec)
 * [Migrations](Migrations)
@@ -13,6 +14,13 @@ Welcome to Alex's Wiki.
 * [Helpers](Helpers)
 * [Action_Cable](Action_Cable)
 * [Active_Record](Active_Record)
+
+
+
+# Ruby
+* [Set](Set)
+* [Blocks](Blocks)
+
 
 # WEB
 * [CSRF](CSRF)
@@ -48,6 +56,8 @@ Welcome to Alex's Wiki.
 
 # Javascript
 * [Vue](Vue)
+* [Vue_Router](Vue_Router)
+* [Vuex](Vuex)
 * [Closure](Closure)
 
 # Ruby
@@ -57,6 +67,7 @@ Welcome to Alex's Wiki.
 * [The_West_is_at_its_end](The_West_is_at_its_end)
 
 # Vim/NeoVim
+* [Neovim_Buffers](Neovim_Buffers)
 
 # Git
 * [Git_Commands](Git_Commands)

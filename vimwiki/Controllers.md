@@ -71,6 +71,13 @@ Calling render will create a full response that is sent back to the browser.
 * If you use render instead of redirect_to when setting error messages you should use flash.now[:error] and not flash[:error]. This is because the flash message may not show up on the page that is rendered but will show up on the next page that is visited leading to a confusing user experience (thanks Ed!).
 
 
+#You can also render many form
+```ruby
+  respond_to do |format|
+    format.json { render json: { user_id: session[:user_id] } }
+    format.html
+  end
+```
 
 
 
