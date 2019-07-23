@@ -96,4 +96,6 @@ set nopaste
 
 
 
+" Escape neovim terminal
+
 
