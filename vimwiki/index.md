@@ -67,6 +67,7 @@ Welcome to Alex's Wiki.
 * [The_West_is_at_its_end](The_West_is_at_its_end)
 
 # Vim/NeoVim
+* [Cheatsheets](Cheatsheets)
 * [Neovim_Buffers](Neovim_Buffers)
 
 # Git
