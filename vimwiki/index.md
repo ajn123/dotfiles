@@ -56,6 +56,7 @@ Welcome to Alex's Wiki.
 
 # Javascript
 * [Vue](Vue)
+* [Example_Vue](Example_Vue)
 * [Vue_Router](Vue_Router)
 * [Vuex](Vuex)
 * [Closure](Closure)

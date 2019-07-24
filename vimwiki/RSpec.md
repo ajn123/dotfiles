@@ -5,6 +5,18 @@
 * [Rspec Models](https://semaphoreci.com/community/tutorials/how-to-test-rails-models-with-rspec)
 * [Rspec Controllers](https://relishapp.com/rspec/rspec-rails/docs/controller-specs) && [Controllers 2](https://everydayrails.com/2016/08/29/replace-rspec-controller-tests.html)
 * [Rspec Thoughtbot](https://thoughtbot.com/blog/how-we-test-rails-applications)
+*
+[RSpec_Controller_Cheatsheet](https://gist.github.com/eliotsykes/5b71277b0813fbc0df56)
+
+#Rspec Types
+* controller
+* helper
+* mailer
+* models
+* routing
+* view
+* request
+
 
 ## Gemfile
 ```ruby
@@ -184,6 +196,9 @@ actual.should be > 3
 ```
 # Controller Test example
 
+Note that let is lazy-evaluated: it is not evaluated until the first time
+the method it defines is invoked. You can use let! to force the method's
+invocation before each example.
 ```ruby
 require 'rails_helper'
 
@@ -204,7 +219,7 @@ RSpec.describe Api::ListsController, type: :controller do
     end
   end
 
-  describe "DELETE list" do
+  describe "[DELETE](DELETE) list" do
 
     let!(:list) { FactoryBot.create(:list_one)}
 
