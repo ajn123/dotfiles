@@ -20,6 +20,13 @@ this.$store.commit('incrementBy', 25);
       
     },
     actions: {
+    // These are the same functions with the save syntax
+      increment (context) {
+        context.commit('increment')
+      },
+      increment ({ commit }) {
+        commit('increment')
+      }
       
     },
 
@@ -35,3 +42,7 @@ Instead, they commit mutations after performing some logic
 # You call an action like this:
 store.dispatch('incrementAsync')
 store.dispatch('incrementBy', { amount: 25})
+Action handlers receive a context object which exposes the same set 
+of methods/properties on the store instance, so you can call context.  
+commit to commit a mutation, or access the state and getters via 
+context.state and context.getters. We can even call other actions with context.dispatch

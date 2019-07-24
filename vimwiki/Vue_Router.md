@@ -7,3 +7,13 @@ e.g. /people?sortBy=names would return { sortBy : lastName }
 $route.router returns the vue-router instance
 $route.matched returns route configuration objects for every matched segment in the current route
 $route.name returns the name, if it has one, of the current route
+
+
+
+# Before Each
+```
+// You must call next() for this to complete or next('/') to redirect
+router.beforeEach((to, from, next) => {
+  // ...
+})
+```

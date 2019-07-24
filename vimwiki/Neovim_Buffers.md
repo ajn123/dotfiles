@@ -12,6 +12,7 @@
 
 # Buffers
 ```bash
+<C-b>  View Buffers
 :bfirst
 :blast
 :bnext
