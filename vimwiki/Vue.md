@@ -225,6 +225,16 @@ computed: {
     }
   }
 }
+// This is the object syntax
+<div v-bind:class="{ active: isActive }"></div>
+// This is the array syntax
+<div v-bind:class="[activeClass, errorClass]"></div>
+data: {
+  activeClass: 'active',
+  errorClass: 'text-danger'
+}
+// This will always do errorClass but may do active class
+<div v-bind:class="[isActive ? activeClass : '', errorClass]"></div>
 ```
 
 
