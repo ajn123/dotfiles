@@ -13,6 +13,10 @@ Plugin 'leafOfTree/vim-vue-plugin'
 " For Vue.js
 Plugin 'posva/vim-vue'
 
+" To find matching braces
+Plugin 'https://github.com/adelarsq/vim-matchit'
+
+
 " Define bundles via Github repos
 Plugin 'christoomey/vim-run-interactive'
 Plugin 'croaky/vim-colors-github'

@@ -11,9 +11,23 @@ $route.name returns the name, if it has one, of the current route
 
 
 # Before Each
-```
+```javascript
 // You must call next() for this to complete or next('/') to redirect
 router.beforeEach((to, from, next) => {
   // ...
 })
+```
+
+
+# Go to another link
+
+```javascript
+router.push('home')
+
+// object
+router.push({ path: 'home' })
+
+// named route
+router.push({ name: 'user', params: { userId: '123' } })
+
 ```
