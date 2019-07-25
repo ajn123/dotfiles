@@ -16,7 +16,6 @@ Welcome to Alex's Wiki.
 * [Active_Record](Active_Record)
 
 
-
 # Ruby
 * [Set](Set)
 * [Blocks](Blocks)

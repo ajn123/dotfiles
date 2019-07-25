@@ -4,6 +4,11 @@
 * https://vuejs.org/v2/guide/list.html
 * https://github.com/flaviocopes/vue-developer-roadmap
 
+
+# Vue modifiers
+* [Event_Modifiers](Event_Modifiers)
+
+
 # Don't forget to intsall webpacker if you need it!!!
 bundle exec rails webpacker:install
 
