@@ -64,6 +64,9 @@ var example1 = new Vue({
 
 
 # V-For example
+
+You can also loop through objects with v-for
+
 ```javascript
 var example1 = new Vue({
   el: '#example-1',
@@ -82,6 +85,13 @@ var example1 = new Vue({
     {{ item.message }}
   </li>
 </ul>
+// Object example
+
+<div v-for="(value, name) in object">
+  {{ name}} : {{ value }}
+</div>
+
+
 ```
 ========
 
