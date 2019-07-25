@@ -53,8 +53,11 @@ ActiveRecord::Base.connection.select_all('SELECT username, COUNT(photos.likes) F
 ```
 
 # HAS MANY ASSOCIATIONS
+Remember that a belongs_to relationship is required unless you
+make it optional
 
 ```ruby
+belongs_to :user, optional: true
 
 class Student < ApplicationRecord
   has_many :klasses
@@ -135,7 +138,7 @@ end
 ```
 
 # Call Backs - How to fail
- * before_validation: Executed before the validation
+* before_validation: Executed before the validation
 * after_validation: Executed after the validation
 * before_save: Executed before each save
 * before_create: Executed before the first save
@@ -153,8 +156,6 @@ end
     message: "should happen once per year" }
 ```
 
-
-
 You can skip validations with: 
 
 ```ruby
@@ -166,7 +167,6 @@ You can associate validations with:
 validates_associated :books
 
 
-
 # Override methods
 ```ruby
 def as_json(*)
@@ -175,9 +175,3 @@ def as_json(*)
     end
   end
 ```
-
-
-
-
-
-

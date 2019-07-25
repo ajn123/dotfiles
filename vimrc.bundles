@@ -49,11 +49,13 @@ Plugin 'Raimondi/delimitMate'
 Bundle 'Rip-Rip/clang_complete'
 Plugin 'bling/vim-airline'
 
-Plugin 'MarcWeber/vim-addon-mw-utils'
-" You need this for snipmate
-Plugin 'tomtom/tlib_vim'
-Plugin 'garbas/vim-snipmate'
+" You need these 4 for snipmate
+Plugin 'SirVer/ultisnips'
+" Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
+" ===========
+
+
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'mattn/emmet-vim'
 Plugin 'rizzatti/dash.vim'
@@ -67,7 +69,16 @@ Plugin 'ryanoasis/vim-devicons'
 " For startup screen
 Plugin 'mhinz/vim-startify'
 
-"  Bundle 'Valloric/YouCompleteMe'
+"   Bundle 'Valloric/YouCompleteMe'
+
+if has('nvim')
+  Plugin 'Shougo/deoplete.nvim'
+else
+  Plugin 'Shougo/deoplete.nvim'
+  Plugin 'roxma/nvim-yarp'
+  Plugin 'roxma/vim-hug-neovim-rpc'
+endif
+
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
@@ -169,5 +180,26 @@ let g:vimwiki_list = [{'path': '~/dotfiles/vimwiki/',
 " vim airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
+
+" Util Snips
+let g:UltiSnipsExpandTrigger="<tab>"
+
+
+" deoplete
+let g:deoplete#enable_at_startup = 1
+
+
+" emmit set to controly y
+let g:user_emmet_leader_key='<C-y>'
+
+
+
+
+
+
+
+
+
+
 
 
