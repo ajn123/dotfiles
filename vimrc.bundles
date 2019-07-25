@@ -182,16 +182,21 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
 " Util Snips
-let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsExpandTrigger="<C-j>"
 
 
 " deoplete
 let g:deoplete#enable_at_startup = 1
 
 
+augroup markdown
+  au!
+  au BufNewFile,BufRead *.md,*.markdown,*.mmd setlocal filetype=ghmarkdown
+  au BufNewFile,BufRead *.md,*.markdown,*.mmd UltiSnipsAddFiletypes ghmarkdown.markdown
+augroup end
+
 " emmit set to controly y
 let g:user_emmet_leader_key='<C-y>'
-
 
 
 
