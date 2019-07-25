@@ -140,7 +140,12 @@ Vim Snippets
 ead - ERB each loop
 ff - form_for
 ife - if and else ruby statement
+cbl - codeblock
+
 ```
+
+
+
 Emmet Plugin Example
 -------------
 * Write expression, then Ctrl-y + ,
@@ -150,6 +155,12 @@ Emmet Plugin Example
 Dash Plugin Example
 ------------
 * [Dash API Documentation](https://raw.githubusercontent.com/rizzatti/dash.vim/master/doc/dash.txt)
+
+Command | Definition 
+:-|:-
+:Dash <command> | bring dash to fore front
+
+
 
 
 Atom
@@ -174,3 +185,4 @@ Command + ,  = Settings
 * Vundle
 * Rake
 * Atom
+* Neovim
