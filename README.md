@@ -52,7 +52,7 @@ Mac
 ## Zoom
   Accessibility > Zoom > Use scroll gesture to zoom: ^ Control
 
-## Vim
+## Vim/NeoVim
     :PluginInstall # Use While in Vim to install plugins    
 
 
@@ -141,9 +141,11 @@ ead - ERB each loop
 ff - form_for
 ife - if and else ruby statement
 cbl - codeblock
-
+tb(\d)x(\d) - create a x by x table in markdown
+de - ruby definition
 ```
 
+# You can add any snippets in the `/config/nvim/my_snippets` 
 
 
 Emmet Plugin Example
@@ -181,8 +183,10 @@ Command + ,  = Settings
 
 
 ## Thanks
-* [Thoughtbot](http://thoughtbot.com/)
+* [Thoughtbot](http://thoughtbot.com/ )
 * Vundle
 * Rake
 * Atom
 * Neovim
+* [Neovim](https://neovim.io/ )
+
