@@ -158,8 +158,6 @@ endfunction
 
 " Open fzf Files
 map <C-p> :call Fzf_dev()<CR>
-map <C-d> :call Fzf_git_diff_files_with_dev_icons()<CR>
-map <C-g> :call Fzf_files_with_dev_icons("git ls-files \| uniq")<CR>
 map <C-b> :Buffers<CR>
 
 
