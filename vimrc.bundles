@@ -184,11 +184,11 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 " Util Snips
 let g:UltiSnipsExpandTrigger="<C-j>"
 
-
 " deoplete
 let g:deoplete#enable_at_startup = 1
 
 
+" configure .md for markdown files 
 augroup markdown
   au!
   au BufNewFile,BufRead *.md,*.markdown,*.mmd setlocal filetype=ghmarkdown

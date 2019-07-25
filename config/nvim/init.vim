@@ -11,5 +11,5 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set mouse=a
 
 
-" custom snippest
+" custom snippets under the my_snippets file
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "my_snippets"]
