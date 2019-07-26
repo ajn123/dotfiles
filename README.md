@@ -48,6 +48,14 @@ You can safely run `rcup` multiple times to update:
 
     rcup
 
+You then need to install vim-plug 
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \                                                                                                                                                                                                                    130 ↵
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+
+
 Mac
 -----------------------------
 ## Zoom
@@ -185,7 +193,7 @@ Command + ,  = Settings
 
 ## Thanks
 * [Thoughtbot](http://thoughtbot.com/ )
-* Vundle
+* [vim-Plugin](https://github.com/junegunn/vim-plug )
 * Rake
 * Atom
 * Neovim

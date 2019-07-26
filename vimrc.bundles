@@ -1,82 +1,78 @@
-if &compatible
-  set nocompatible
-end
-
-set rtp+=~/.vim/bundle/Vundle.vim/
-call vundle#begin()
+call plug#begin('~/.config/nvim/plugged')
 
 " Let Vundle manage Vundle
-Plugin 'gmarik/Vundle.vim'
-Plugin 'leafOfTree/vim-vue-plugin'
+Plug 'gmarik/Vundle.vim'
+Plug 'leafOfTree/vim-vue-plugin'
 
 
 " For Vue.js
-Plugin 'posva/vim-vue'
+Plug 'posva/vim-vue'
 
 " To find matching braces
-Plugin 'https://github.com/adelarsq/vim-matchit'
+Plug 'https://github.com/adelarsq/vim-matchit'
 
 
 " Define bundles via Github repos
-Plugin 'christoomey/vim-run-interactive'
-Plugin 'croaky/vim-colors-github'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'junegunn/fzf'
-Plugin 'junegunn/fzf.vim'
-Plugin 'pbrisbin/vim-mkdir'
+Plug 'christoomey/vim-run-interactive'
+Plug 'croaky/vim-colors-github'
+Plug 'kchmck/vim-coffee-script'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'pbrisbin/vim-mkdir'
 " Replacing sytastic with ale
-"Plugin 'scrooloose/syntastic'
-Plugin 'w0rp/ale'
-Plugin 'slim-template/vim-slim'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-eunuch'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-surround'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'vim-scripts/ctags.vim'
-Plugin 'vim-scripts/matchit.zip'
-Plugin 'vim-scripts/tComment'
+"Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
+Plug 'slim-template/vim-slim'
+Plug 'thoughtbot/vim-rspec'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
+Plug 'vim-ruby/vim-ruby'
+Plug 'vim-scripts/ctags.vim'
+Plug 'vim-scripts/matchit.zip'
+Plug 'vim-scripts/tComment'
 " for molokai dark theme
-" Plugin 'pR0Ps/molokai-dark'
+" Plug 'pR0Ps/molokai-dark'
 
-Plugin 'mattn/webapi-vim'
-Plugin 'mattn/gist-vim'  " For gists
-Plugin 'Raimondi/delimitMate'
-Bundle 'Rip-Rip/clang_complete'
-Plugin 'bling/vim-airline'
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'  " For gists
+Plug 'Raimondi/delimitMate'
+
+Plug 'bling/vim-airline'
 
 " You need these 4 for snipmate
-Plugin 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips'
+Plug 'ervandew/supertab'
 " Snippets are separated from the engine. Add this if you want them:
-Plugin 'honza/vim-snippets'
+Plug 'honza/vim-snippets'
 " ===========
 
 
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'mattn/emmet-vim'
-Plugin 'rizzatti/dash.vim'
-Plugin 'morhetz/gruvbox'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'mattn/emmet-vim'
+Plug 'rizzatti/dash.vim'
+Plug 'morhetz/gruvbox'
 
-Plugin 'vimwiki/vimwiki'
+Plug 'vimwiki/vimwiki'
 
 " For icons on file types
-Plugin 'ryanoasis/vim-devicons'
+Plug 'ryanoasis/vim-devicons'
 
 " For startup screen
-Plugin 'mhinz/vim-startify'
+Plug 'mhinz/vim-startify'
 
 "   Bundle 'Valloric/YouCompleteMe'
 
 if has('nvim')
-  Plugin 'Shougo/deoplete.nvim'
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
-  Plugin 'Shougo/deoplete.nvim'
-  Plugin 'roxma/nvim-yarp'
-  Plugin 'roxma/vim-hug-neovim-rpc'
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
 endif
 
 
@@ -84,7 +80,8 @@ if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
 
-call vundle#end()
+call plug#end()
+
 filetype plugin indent on    " required
 colorscheme gruvbox
 "For Vim solarized
@@ -181,8 +178,8 @@ let g:vimwiki_list = [{'path': '~/dotfiles/vimwiki/',
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
+
 " Util Snips
-let g:UltiSnipsExpandTrigger="<C-j>"
 let g:UltiSnipsJumpForwardTrigger="<c-f>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
 
@@ -202,11 +199,9 @@ let g:user_emmet_leader_key='<C-y>'
 
 
 
+autocmd FileType javascript let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
+let g:UltiSnipsExpandTrigger="<C-j>"
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 
-
-
-
-
-
-
+	
