@@ -57,6 +57,8 @@ Plug 'ryanoasis/vim-devicons'
 " For startup screen
 Plug 'mhinz/vim-startify'
 
+Plug 'easymotion/vim-easymotion'
+
 "   Bundle 'Valloric/YouCompleteMe'
 
 if has('nvim')
