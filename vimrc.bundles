@@ -44,14 +44,6 @@ Plug 'Raimondi/delimitMate'
 
 Plug 'bling/vim-airline'
 
-" You need these 4 for snipmate
-Plug 'SirVer/ultisnips'
-Plug 'ervandew/supertab'
-" Snippets are separated from the engine. Add this if you want them:
-Plug 'honza/vim-snippets'
-" ===========
-
-
 Plug 'terryma/vim-multiple-cursors'
 Plug 'mattn/emmet-vim'
 Plug 'rizzatti/dash.vim'
@@ -75,6 +67,10 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 
+" You need these 4 for snipmate
+Plug 'SirVer/ultisnips'
+" Snippets are separated from the engine. Add this if you want them:
+Plug 'honza/vim-snippets'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
@@ -198,10 +194,5 @@ augroup end
 let g:user_emmet_leader_key='<C-y>'
 
 
+let g:UltiSnipsExpandTrigger="<tab>"
 
-autocmd FileType javascript let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
-let g:UltiSnipsExpandTrigger="<C-j>"
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-
-
-	
