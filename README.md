@@ -62,7 +62,7 @@ Mac
   Accessibility > Zoom > Use scroll gesture to zoom: ^ Control
 
 ## Vim/NeoVim
-    :PluginInstall # Use While in Vim to install plugins    
+    :PluginInstall # Use While in [[Vim]] to install plugins    
 
 
     # install YouCompleteMe Plugin, you need vim 7.4+ ;
@@ -71,7 +71,11 @@ Mac
     python install.py;
     :sp filename #horizontal pane
     :vsp filename #vertical pane
-
+    <C-m> toggle nerd tree
+    <C-n> multiple selection
+    <C-b> look at open buffers
+    <C-u> half page up
+    <C-d> half page down
 
 
 Github

@@ -59,6 +59,9 @@ Plug 'mhinz/vim-startify'
 
 Plug 'easymotion/vim-easymotion'
 
+
+Plug 'scrooloose/nerdtree'
+
 "   Bundle 'Valloric/YouCompleteMe'
 
 if has('nvim')
@@ -198,3 +201,7 @@ let g:user_emmet_leader_key='<C-y>'
 
 let g:UltiSnipsExpandTrigger="<tab>"
 
+
+map <C-m> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
