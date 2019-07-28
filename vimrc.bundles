@@ -72,11 +72,14 @@ else
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
 
-" You need these 4 for snipmate
+let g:deoplete#enable_at_startup = 1
+
 Plug 'SirVer/ultisnips'
+Plug 'ervandew/supertab'
 " Snippets are separated from the engine. Add this if you want them:
 Plug 'honza/vim-snippets'
 
+" You need these 4 for snipmate
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
@@ -180,13 +183,11 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 
 
+" deoplete
+
 " Util Snips
 let g:UltiSnipsJumpForwardTrigger="<c-f>"
 let g:UltiSnipsJumpBackwardTrigger="<c-b>"
-
-" deoplete
-let g:deoplete#enable_at_startup = 1
-
 
 " configure .md for markdown files 
 augroup markdown
@@ -199,9 +200,16 @@ augroup end
 let g:user_emmet_leader_key='<C-y>'
 
 
-let g:UltiSnipsExpandTrigger="<tab>"
 
 
 map <C-m> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
+
+let g:UltiSnipsExpandTrigger="<C-j>"
+"inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+
+imap <tab> <esc>a<Plug>snipMateNextOrTrigger
+
+
+imap <C-S> <Plug>snipMateNextOrTrigger
