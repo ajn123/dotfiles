@@ -25,6 +25,7 @@ Welcome to Alex's Wiki.
 * [CSRF](CSRF)
 * [SQL_injection](SQL_injection)
 * [Rails_Headers](Rails_Headers)
+* [Serialization](Serialization)
 
 
 # Webpacker
