@@ -95,4 +95,20 @@ source $ZSH/oh-my-zsh.sh
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
 
+#bindkey -v
+#;export KEYTIMEOUT=1 
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="/usr/local/opt/node@10/bin:$PATH"
+
+bindkey -v
+
+bindkey '^P' up-history
+bindkey '^N' down-history
+bindkey '^?' backward-delete-char
+bindkey '^h' backward-delete-char
+bindkey '^w' backward-kill-word
+bindkey '^r' history-incremental-search-backward
+
+
+export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
