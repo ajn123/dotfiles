@@ -51,7 +51,7 @@ ZSH_THEME="bira"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # NOTE: zsh-syntax-highlighting must be last.
-plugins=(git battery colored-man web-search zsh-syntax-highlighting)
+plugins=(git battery bundler rake osx vi-mode history-substring-search web-search zsh-syntax-highlighting)
 
 for file in ~/.{path,exports,aliases,functions,extra}; do
   [ -r "$file" ] && [ -f "$file" ] && source "$file";
