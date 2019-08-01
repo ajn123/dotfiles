@@ -19,6 +19,7 @@ Welcome to Alex's Wiki.
 # Ruby
 * [Set](Set)
 * [Blocks](Blocks)
+* [Useful_Methods](Useful_Methods)
 
 
 # WEB
