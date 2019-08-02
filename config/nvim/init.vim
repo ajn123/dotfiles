@@ -13,3 +13,6 @@ set mouse=a
 
 " custom snippets under the my_snippets file
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "my_snippets"]
+
+" sets yank to system clipboard
+set clipboard+=unnamedplus
