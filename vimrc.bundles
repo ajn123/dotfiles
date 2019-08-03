@@ -4,7 +4,6 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'gmarik/Vundle.vim'
 Plug 'leafOfTree/vim-vue-plugin'
 
-
 " For Vue.js
 Plug 'posva/vim-vue'
 
@@ -18,6 +17,7 @@ Plug 'croaky/vim-colors-github'
 Plug 'kchmck/vim-coffee-script'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+
 Plug 'pbrisbin/vim-mkdir'
 " Replacing sytastic with ale
 "Plug 'scrooloose/syntastic'
@@ -42,7 +42,8 @@ Plug 'mattn/webapi-vim'
 Plug 'mattn/gist-vim'  " For gists
 Plug 'Raimondi/delimitMate'
 
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'terryma/vim-multiple-cursors'
 Plug 'mattn/emmet-vim'
@@ -104,7 +105,6 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 " For vim-multiple-cursors
 let g:multi_cursor_quit_key            = '<C-s>'
-let g:multi_cursor_quit_key            = '<C-s>'
 let g:multi_cursor_exit_from_visual_mode = 1
 let g:multi_cursor_exit_from_insert_mode = 1
 
@@ -118,9 +118,17 @@ nnoremap <silent> <C-P> :Files<CR>
 let g:ale_lint_on_text_changed = 'never'
 
 
+" vim airline
+
+let g:airline_theme='molokai'
+
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
-
+" speed up airline
+let g:airline_highlighting_cache = 1
 
 
 "FZF with devicons
@@ -178,9 +186,6 @@ let g:vimwiki_list = [{'path': '~/dotfiles/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
 
 
-" vim airline
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#buffer_nr_show = 1
 
 
 " deoplete
@@ -200,14 +205,14 @@ augroup end
 let g:user_emmet_leader_key='<C-y>'
 
 
-
-
 map <C-m> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
 let g:UltiSnipsExpandTrigger="<C-j>"
 "inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+"
+"
 
 imap <tab> <esc>a<Plug>snipMateNextOrTrigger
 
@@ -217,6 +222,5 @@ imap <C-S> <Plug>snipMateNextOrTrigger
 
 " set relative number
 set number relativenumber
-
 
 

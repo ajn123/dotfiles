@@ -64,7 +64,7 @@ autocmd FileType ruby compiler ruby
 
 " This allows buffers to be hidden if you've modified a buffer.
 " " This is almost a must if you wish to use buffers in this way.
-set hidden
+
 
 " " To open a new empty buffer
 " " This replaces :tabnew which I used to bind to this mapping
@@ -97,5 +97,4 @@ set nopaste
 
 
 " Escape neovim terminal
-
 
