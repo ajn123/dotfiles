@@ -213,3 +213,10 @@ imap <tab> <esc>a<Plug>snipMateNextOrTrigger
 
 
 imap <C-S> <Plug>snipMateNextOrTrigger
+
+
+" set relative number
+set number relativenumber
+
+
+
