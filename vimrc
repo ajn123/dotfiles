@@ -94,7 +94,3 @@ set spell spelllang=en_us
 
 set nopaste
 
-
-
-" Escape neovim terminal
-

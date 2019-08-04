@@ -72,6 +72,7 @@ Welcome to Alex's Wiki.
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
 * [Neovim_Buffers](Neovim_Buffers)
+* [vimrc_commands](vimrc_commands)
 
 # Git
-* [Git_Commands](Git_Commands)
+ [Git_Commands](Git_Commands)
