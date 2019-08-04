@@ -62,7 +62,7 @@ Mac
   Accessibility > Zoom > Use scroll gesture to zoom: ^ Control
 
 ## Vim/NeoVim
-    :PluginInstall # Use While in [[Vim]] to install plugins    
+    :PlugInstall # Use While in [[Vim]] to install plugins    
 
 
     # install YouCompleteMe Plugin, you need vim 7.4+ ;
@@ -76,6 +76,7 @@ Mac
     <C-b> look at open buffers
     <C-u> half page up
     <C-d> half page down
+    zz    center page
 
 
 Github
@@ -200,6 +201,5 @@ Command + ,  = Settings
 * [vim-Plugin](https://github.com/junegunn/vim-plug )
 * Rake
 * Atom
-* Neovim
 * [Neovim](https://neovim.io/ )
 

@@ -9,3 +9,14 @@ Command | Action
 <leader-b-l> | list buffers, cant switch them
 <leader-leader-DIRECTION> | fast travel 
 <C-y> + , | emmet command key
+
+
+
+Vim Commands
+
+| Command           | Action                                                      |
+|-------------------|-------------------------------------------------------------|
+| :VimwikiTable 5 3 | makes a table of 5 columns and 3 rows                       |
+| :Obsess           | Creates a session that saves the buffers for this directory |
+|                   |                                                             |
+|                   |                                                             |

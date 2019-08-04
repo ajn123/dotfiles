@@ -122,9 +122,7 @@ let g:ale_lint_on_text_changed = 'never'
 
 
 " vim airline
-
 let g:airline_theme='molokai'
-
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
@@ -163,7 +161,7 @@ function! Fzf_dev()
       call add(l:result, printf('%s %s', l:icon, l:candidate))
     endfor
 
-    return l:result
+    geturn l:result
   endfunction
 
   function! s:edit_file(item)
