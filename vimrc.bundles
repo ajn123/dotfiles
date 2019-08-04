@@ -1,5 +1,8 @@
 call plug#begin('~/.config/nvim/plugged')
 
+"use Obsess to save your vim session
+Plug 'tpope/vim-obsession'
+
 " Let Vundle manage Vundle
 Plug 'gmarik/Vundle.vim'
 Plug 'leafOfTree/vim-vue-plugin'

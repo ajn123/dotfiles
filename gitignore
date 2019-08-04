@@ -26,3 +26,7 @@ Thumbs.db
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+
+#Session.vim files
+Session.vim
