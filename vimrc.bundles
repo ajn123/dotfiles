@@ -161,7 +161,7 @@ function! Fzf_dev()
       call add(l:result, printf('%s %s', l:icon, l:candidate))
     endfor
 
-    geturn l:result
+    return l:result
   endfunction
 
   function! s:edit_file(item)

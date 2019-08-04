@@ -1,7 +1,7 @@
 
 # Cheatsheets
 * https://vim.rtorr.com/
-
+* https://mkaz.blog/working-with-vim/recording/
 
 
 Key Bindings
