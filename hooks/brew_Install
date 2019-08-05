@@ -71,5 +71,10 @@ brew install z;
 brew install bat;
 
 brew install tmux;
+
+#tmuxinator
+brew tap nexeck/homebrew-tmuxinator;
+brew install nexeck/homebrew-tmuxinator/tmuxinator;
+
 # Remove outdated versions from the cellar
 brew cleanup;

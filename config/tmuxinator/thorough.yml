@@ -1,0 +1,15 @@
+# ~/.tmuxinator/monitor.yml
+
+name: monitor
+root: ~/thoroughcare/thoroughcare
+
+windows:
+  - status_things:
+      layout: main-horizontal
+      panes:
+        - v .
+        - echo "hello"
+  - testing:
+      layout: tiled
+      panes:
+        - echo "testing"
