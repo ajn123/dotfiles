@@ -1,11 +1,11 @@
 # ~/.tmuxinator/monitor.yml
 
-name: monitor
+name: thorough
 root: ~/thoroughcare/thoroughcare
 
 windows:
   - status_things:
-      layout: main-horizontal
+      layout: main-vertical
       panes:
         - v .
         - echo "hello"
@@ -13,3 +13,11 @@ windows:
       layout: tiled
       panes:
         - echo "testing"
+  - running_app:
+      layout: main-vertical
+      panes:
+        - ls
+  - console_app:
+      layout: main-vertical
+      panes:
+        - ls

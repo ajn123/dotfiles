@@ -113,6 +113,7 @@ Aliases
  ip # find your IP address
  localip
  ips
+ tx # tmuxinator
 ```
 Vim
 -------------
@@ -140,6 +141,8 @@ $ # name session
 " # split horizontally
 x # kill pane
 _ # (SPACE) - toggle between layouts
+d - exits tmux
+:kill-session # end session
 
 
 & # kills the window (exits tmux)
