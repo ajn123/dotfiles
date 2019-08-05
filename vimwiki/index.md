@@ -20,6 +20,7 @@ Welcome to Alex's Wiki.
 * [Set](Set)
 * [Blocks](Blocks)
 * [Useful_Methods](Useful_Methods)
+* [Modules](Modules)
 
 
 # WEB
