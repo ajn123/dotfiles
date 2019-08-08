@@ -1,5 +1,9 @@
 
 
+
+# blank?
+Checks if the string is empty? or nil?.  This is good for either string check
+
 # dig
 Extracts the nested parameter from the given keys by calling dig at each 
 step. Returns nil if any intermediate step is nil.

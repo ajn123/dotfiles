@@ -95,13 +95,20 @@ export EDITOR='nvim'
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+export PATH="/usr/local/opt/node@10/bin:$PATH"
 
 
-#bindkey -v
+export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+
+
+
+export PATH=$PATH:$HOME/.rvm/bin
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+#PATH=$PATH:$HOME/.rvm/binbindkey -v
 #;export KEYTIMEOUT=1 
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH="/usr/local/opt/node@10/bin:$PATH"
+# export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 bindkey -v
 
@@ -111,6 +118,3 @@ bindkey '^?' backward-delete-char
 bindkey '^h' backward-delete-char
 bindkey '^w' backward-kill-word
 bindkey '^r' history-incremental-search-backward
-
-
-export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
