@@ -8,4 +8,8 @@ Order.calculate(:sum, params[:column])
 
 # DO not USE STRING interpolation for queries
 
+```ruby
+  User.where("id = #{@id}")
+```
+
 
