@@ -223,5 +223,3 @@ imap <C-S> <Plug>snipMateNextOrTrigger
 
 " set relative number
 set number relativenumber
-
-
