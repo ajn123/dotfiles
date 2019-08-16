@@ -1,6 +1,7 @@
 # Naming Convention
-The naming convention of controllers in Rails favors pluralization of the last word in the controller's name, although it is not strictly required (e.g. ApplicationController). For example, ClientsController is preferable to ClientController, SiteAdminsController is preferable to SiteAdminController or SitesAdminsController, and so on.
-
+The naming convention of controllers in Rails favors pluralization of the last word in the controller's name, although it is not 
+strictly required (e.g. ApplicationController). For example, ClientsController is preferable to ClientController, 
+SiteAdminsController is preferable to SiteAdminController or SitesAdminsController, and so on.
 
 -----
 
@@ -60,7 +61,8 @@ end
 ### Render
 Calling render will create a full response that is sent back to the browser.
 
-* If you don’t include a call to render in your controller action then it is assumed you are trying to render the view of the same name as your controller action inside a folder of the same name as your controller. This means that the following code will look for app/views/foos/my_action.html.erb;
+* If you don’t include a call to render in your controller action then it is assumed you are trying to render 
+ the view of the same name as your controller action inside a folder of the same name as your controller. This means that the following code will look for app/views/foos/my_action.html.erb;
 
 * You should not make the browser need to make a fresh call unless you really have to, so always question when you are using redirect_to and if it is the right thing, or perhaps a render would be better.
 
@@ -78,9 +80,5 @@ Calling render will create a full response that is sent back to the browser.
     format.html
   end
 ```
-
-
-
-
 
 
