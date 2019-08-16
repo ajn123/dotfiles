@@ -69,6 +69,7 @@ Welcome to Alex's Wiki.
 
 # Poems
 * [The_West_is_at_its_end](The_West_is_at_its_end)
+* [We_see_death_and_meth](We_see_death_and_meth)
 
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
