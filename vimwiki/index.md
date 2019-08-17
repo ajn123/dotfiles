@@ -15,6 +15,8 @@ Welcome to Alex's Wiki.
 * [Action_Cable](Action_Cable)
 * [Active_Record](Active_Record)
 
+# Rails 6
+
 
 # Ruby
 * [Set](Set)
