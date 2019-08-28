@@ -72,6 +72,8 @@ Welcome to Alex's Wiki.
 # Poems
 * [The_West_is_at_its_end](The_West_is_at_its_end)
 * [We_see_death_and_meth](We_see_death_and_meth)
+* [Death_knocks_at_the_door](Death_knocks_at_the_door)
+* [Place_beauty_state_of_crime](Place_beauty_state_of_crime)
 
 # Gardening
 * [Composting](Composting)
