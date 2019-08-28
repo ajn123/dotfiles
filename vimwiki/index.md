@@ -73,6 +73,9 @@ Welcome to Alex's Wiki.
 * [The_West_is_at_its_end](The_West_is_at_its_end)
 * [We_see_death_and_meth](We_see_death_and_meth)
 
+# Gardening
+* [Composting](Composting)
+
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
 * [Neovim_Buffers](Neovim_Buffers)
