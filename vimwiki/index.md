@@ -78,6 +78,10 @@ Welcome to Alex's Wiki.
 # Gardening
 * [Composting](Composting)
 
+# Cooking
+* [Potatoes](Potatoes)
+* [Popcorn](Popcorn)
+
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
 * [Neovim_Buffers](Neovim_Buffers)
