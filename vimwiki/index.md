@@ -74,6 +74,7 @@ Welcome to Alex's Wiki.
 * [We_see_death_and_meth](We_see_death_and_meth)
 * [Death_knocks_at_the_door](Death_knocks_at_the_door)
 * [Place_beauty_state_of_crime](Place_beauty_state_of_crime)
+* [Honey](Honey)
 
 # Gardening
 * [Composting](Composting)
@@ -81,6 +82,8 @@ Welcome to Alex's Wiki.
 # Cooking
 * [Potatoes](Potatoes)
 * [Popcorn](Popcorn)
+* [French_Toast](French_Toast)
+* [Almond_Chocolate_Chip_Cookies](Almond_Chocolate_Chip_Cookies)
 
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
