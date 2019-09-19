@@ -84,6 +84,7 @@ Welcome to Alex's Wiki.
 * [Popcorn](Popcorn)
 * [French_Toast](French_Toast)
 * [Almond_Chocolate_Chip_Cookies](Almond_Chocolate_Chip_Cookies)
+* [Brownies](Brownies)
 
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
@@ -92,3 +93,7 @@ Welcome to Alex's Wiki.
 
 # Git
  [Git_Commands](Git_Commands)
+ 
+ 
+# Meeting Notes
+* [meeting_9 18 19](9/18/19)
