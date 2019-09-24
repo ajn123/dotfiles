@@ -97,3 +97,7 @@ Welcome to Alex's Wiki.
  
 # Meeting Notes
 * [meeting_9 18 19](9/18/19)
+* [meeting_9_23_19](meeting_9_23_19)
+
+[Legal](Legal)
+

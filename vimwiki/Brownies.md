@@ -7,7 +7,7 @@ Ingredients | Portions
 Dark Chocolate | 8 ounces
  Dutchor or regular cocoa powder| 1/4 CUP
  Expresso powder | 1 TBSP
- Hot melted butter
+ Hot melted butter | 1.25 CUPS
  Kosher salt | 2 TSP
  Dark brown sugar | 1/2 CUP
  vanilla extract | 2 TSP 
