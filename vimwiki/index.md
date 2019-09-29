@@ -85,6 +85,7 @@ Welcome to Alex's Wiki.
 * [French_Toast](French_Toast)
 * [Almond_Chocolate_Chip_Cookies](Almond_Chocolate_Chip_Cookies)
 * [Brownies](Brownies)
+* [Banana_Bread](Banana_Bread)
 
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
