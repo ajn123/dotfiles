@@ -87,6 +87,7 @@ alias v='nvim'
 # Tmuxinator
 alias tx='tmuxinator'
 
+alias rogue='lsof -i TCP:3000'
 # kill all tmux sessions
 # alias tkill="tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill"
 

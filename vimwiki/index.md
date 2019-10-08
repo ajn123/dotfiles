@@ -106,3 +106,6 @@ Welcome to Alex's Wiki.
 * [Nonviolent_Communication](Nonviolent_Communication)
 
 
+# Philosophy
+- [Soren_Kierkegaard](Soren_Kierkegaard)
+- [Quotes](Quotes)
