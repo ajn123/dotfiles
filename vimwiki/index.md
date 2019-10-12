@@ -86,6 +86,7 @@ Welcome to Alex's Wiki.
 * [Almond_Chocolate_Chip_Cookies](Almond_Chocolate_Chip_Cookies)
 * [Brownies](Brownies)
 * [Banana_Bread](Banana_Bread)
+* [Oatmeal](Oatmeal)
 
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
