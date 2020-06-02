@@ -87,6 +87,7 @@ Welcome to Alex's Wiki.
 * [Brownies](Brownies)
 * [Banana_Bread](Banana_Bread)
 * [Oatmeal](Oatmeal)
+* [Cooking_for_geeks](Cooking_for_geeks)
 
 # Vim/NeoVim
 * [Cheatsheets](Cheatsheets)
@@ -110,3 +111,9 @@ Welcome to Alex's Wiki.
 # Philosophy
 - [Soren_Kierkegaard](Soren_Kierkegaard)
 - [Quotes](Quotes)
+
+# Magic
+- [Tricks](Tricks)
+
+# Chess
+- [Attacking](Attacking)

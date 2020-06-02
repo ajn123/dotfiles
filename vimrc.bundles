@@ -46,13 +46,14 @@ Plug 'mattn/gist-vim'  " For gists
 Plug 'Raimondi/delimitMate'
 
 Plug 'vim-airline/vim-airline'
+
+Plug 'gruvbox-community/gruvbox'
+
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'terryma/vim-multiple-cursors'
 Plug 'mattn/emmet-vim'
 Plug 'rizzatti/dash.vim'
-Plug 'morhetz/gruvbox'
-
 Plug 'vimwiki/vimwiki'
 
 " For icons on file types
@@ -66,17 +67,8 @@ Plug 'easymotion/vim-easymotion'
 
 Plug 'scrooloose/nerdtree'
 
-"   Bundle 'Valloric/YouCompleteMe'
-
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-  Plug 'Shougo/deoplete.nvim'
-  Plug 'roxma/nvim-yarp'
-  Plug 'roxma/vim-hug-neovim-rpc'
-endif
-
-let g:deoplete#enable_at_startup = 1
+" Use release branch (recommend)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'SirVer/ultisnips'
 Plug 'ervandew/supertab'

@@ -1,5 +1,6 @@
 
 
+# fetch
 
 # blank?
 Checks if the string is empty? or nil?.  This is good for either string check

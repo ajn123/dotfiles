@@ -31,7 +31,7 @@ of compassion
 #Feelings versus non-feeling p.41
 - Feelings Exercise p.47
 
-#Acknowledge donig needs p.65
+#Acknowledge doing needs p.65
 
 #Reflect back in words p.75
 
