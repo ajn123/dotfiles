@@ -153,6 +153,7 @@ tmux kill-session -t myname # kill session
 ```
 Vim Snippets
 -------------
+Press Ctrl-J to activate
 ```
 ead - ERB each loop
 ff - form_for
@@ -203,6 +204,6 @@ Command + ,  = Settings
 * [Thoughtbot](http://thoughtbot.com/ )
 * [vim-Plugin](https://github.com/junegunn/vim-plug )
 * Rake
-* Atom
+
 * [Neovim](https://neovim.io/ )
 
