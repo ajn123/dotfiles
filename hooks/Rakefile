@@ -1,5 +1,6 @@
 require "rake"
 
+
 desc "install dot files"
 task :install do
 	install_oh_my_zsh
@@ -10,6 +11,7 @@ task :install do
   install_you_complete_me
   github_setup
   vim_setup
+  python_install
   system %Q{reload}
 end
 
@@ -62,9 +64,11 @@ def github_setup
 end
 
 
+
+
 def start_up
   system %Q{ \\curl -sSL https://get.rvm.io | bash -s stable --ruby} # rvm
-  system %Q{ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"} # hombrew
+  system %Q{/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"::} # hombrew
   system %Q{brew tap thoughtbot/formulae}
   system %Q{brew install rcm}
   system %Q{env RCRC=$HOME/dotfiles/rcrc rcup}
@@ -74,4 +78,9 @@ end
 
 def vim_setup
   system %Q{vim +PluginInstall +qall}
+end
+
+def python_install
+  system %Q{python3 -m pip install --user --upgrade pynvim}
+end
 end
