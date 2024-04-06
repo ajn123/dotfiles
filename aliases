@@ -91,6 +91,13 @@ alias rogue='lsof -i TCP:3000'
 # kill all tmux sessions
 # alias tkill="tmux ls | grep : | cut -d. -f1 | awk '{print substr($1, 0, length($1)-1)}' | xargs kill"
 
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail' 
+
+alias tc-jobs='./vendor/bin/sail artisan  queue:clear;./vendor/bin/sail artisan queue:listen --tries=1 --timeout=0'
+
+alias pint='docker run --rm -u "$(id -u):$(id -g)" -v $(pwd):/app -w /app laravelsail/php81-composer:latest composer pint '
 
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
+
+

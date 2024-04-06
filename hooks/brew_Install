@@ -76,5 +76,8 @@ brew install tmux;
 brew tap nexeck/homebrew-tmuxinator;
 brew install nexeck/homebrew-tmuxinator/tmuxinator;
 
+
+brew install --cask mactex; 
+
 # Remove outdated versions from the cellar
 brew cleanup;
