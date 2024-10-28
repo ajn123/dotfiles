@@ -95,8 +95,13 @@ alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 
 alias tc-jobs='./vendor/bin/sail artisan  queue:clear;./vendor/bin/sail artisan queue:listen --tries=1 --timeout=0'
 
-alias pint='docker run --rm -u "$(id -u):$(id -g)" -v $(pwd):/app -w /app laravelsail/php81-composer:latest composer pint '
+alias sail-pint='docker run --rm -u "$(id -u):$(id -g)" -v $(pwd):/app -w /app laravelsail/php81-composer:latest composer pint '
 
+alias pint='./vendor/bin/pint'
+
+alias php-clear='php artisan route:clear; php artisan config:cache; php artisan cache:clear'
+
+alias sail-clear='sail artisan route:clear; sail artisan config:cache; sail artisan cache:clear'
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
 
