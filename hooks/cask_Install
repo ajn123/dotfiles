@@ -6,20 +6,22 @@
 brew install caskroom/cask/brew-cask;
 brew tap caskroom/versions;
 
-brew cask install dropbox 2> /dev/null;
-brew cask install google-chrome 2> /dev/null;
-brew cask install iterm2 2> /dev/null;
-brew cask install macvim 2> /dev/null;
-brew cask install sublime-text 2> /dev/null;
-brew cask install the-unarchiver 2> /dev/null;
-brew cask install alfred; 
-brew cask install dash;
-brew cask install spectacle;
-brew cask install onepassword;
-brew cask install mactex;
-brew cask install atom; 
-brew cask install docker;
+brew  install dropbox 2> /dev/null;
+brew  install google-chrome 2> /dev/null;
+brew  install iterm2 2> /dev/null;
+brew  install macvim 2> /dev/null;
+brew  install sublime-text 2> /dev/null;
+brew  install the-unarchiver 2> /dev/null;
+brew  install alfred; 
+brew  install dash;
+brew  install spectacle;
+brew  install onepassword;
+brew  install mactex;
+brew  install atom; 
+brew  install docker;
+brew install notion
+brew install --cask microsoft-outlook
 
 brew tap homebrew/cask-fonts;
-brew cask install font-hack-nerd-font;
-brew install --cask miniconda
+brew  install font-hack-nerd-font;
+brew install  miniconda
