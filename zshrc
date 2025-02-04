@@ -136,3 +136,6 @@ export HERD_PHP_83_INI_SCAN_DIR="/Users/alexander.norton/Library/Application Sup
 
 # Herd injected PHP 8.4 configuration.
 export HERD_PHP_84_INI_SCAN_DIR="/Users/alexander.norton/Library/Application Support/Herd/config/php/84/"
+
+# Created by `pipx` on 2025-02-02 14:31:14
+export PATH="$PATH:/Users/alexandernorton/.local/bin"

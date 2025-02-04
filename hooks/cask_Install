@@ -23,6 +23,7 @@ brew install notion
 brew install --cask microsoft-outlook
 brew install tableplus
 brew install slack
+brew install --cask onedrive
 
 brew tap homebrew/cask-fonts;
 brew  install font-hack-nerd-font;
