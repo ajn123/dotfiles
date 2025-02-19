@@ -20,11 +20,15 @@ brew  install mactex;
 brew  install atom; 
 brew  install docker;
 brew install notion
-brew install tableplus
-brew install slack
+brew install tableplus;
+brew install slack;
+brew install loop;
+
+
+brew install --cask anaconda
 
 # Installs One Drive, Outlook and the rest
-brew install --cask microsoft-office
+brew install --cask microsoft-office;
 
 brew tap homebrew/cask-fonts;
 brew  install font-hack-nerd-font;
