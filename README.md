@@ -62,22 +62,88 @@ Mac
   Accessibility > Zoom > Use scroll gesture to zoom: ^ Control
 
 ## Vim/NeoVim
-    :PlugInstall # Use While in [[Vim]] to install plugins    
+    :PlugInstall # install plugins
+    :PlugUpdate  # update plugins
+    :PlugClean   # remove unused plugins
 
+Vim Plugins
+-------------
+Leader key is `<Space>`.
 
-    # install YouCompleteMe Plugin, you need vim 7.4+ ;
-    cd ~/.vim/bundle/YouCompleteMe;
-    brew install CMake;
-    python install.py;
-    :sp filename #horizontal pane
-    :vsp filename #vertical pane
-    <C-m> toggle nerd tree
-    <C-n> multiple selection
-    <C-b> look at open buffers
-    <C-u> half page up
-    <C-d> half page down
-    zz    center page
+### File Navigation
+Plugin | Command | Description
+:-|:-|:-
+**FZF** | `<C-p>` | Fuzzy file finder with devicons and bat preview
+**FZF** | `<C-b>` | Browse open buffers
+**FZF** | `:Find <query>` | Ripgrep search across project
+**NERDTree** | `<C-m>` | Toggle file tree sidebar
+**EasyMotion** | `<Leader><Leader>w` | Jump to any word on screen
 
+### Editing
+Plugin | Command | Description
+:-|:-|:-
+**vim-surround** | `cs"'` | Change surrounding `"` to `'`
+**vim-surround** | `ds"` | Delete surrounding `"`
+**vim-surround** | `ysiw]` | Surround word with `[]`
+**vim-multiple-cursors** | `<C-n>` | Select word, repeat for multiple cursors (`<C-s>` to quit)
+**Emmet** | `<C-y>,` | Expand Emmet abbreviation (e.g. `div>ul>li*3`)
+**tComment** | `gcc` | Toggle comment on current line
+**tComment** | `gc` (visual) | Toggle comment on selection
+**delimitMate** | auto | Auto-close brackets, quotes, parens
+
+### Snippets (UltiSnips)
+Command | Description
+:-|:-
+`<C-j>` | Expand snippet trigger
+`<C-f>` | Jump to next placeholder
+`<C-b>` | Jump to previous placeholder
+
+Custom snippets go in `/config/nvim/my_snippets/`.
+
+### Git
+Plugin | Command | Description
+:-|:-|:-
+**vim-fugitive** | `:Git` | Run any git command
+**vim-fugitive** | `:Git blame` | Inline blame
+**vim-fugitive** | `:Git diff` | View diff in vim
+**gist-vim** | `:Gist` | Post public gist
+**gist-vim** | `:Gist -a` | Post anonymous gist
+**gist-vim** | `:Gist -b` | Open gist in browser after posting
+
+### Completion & Linting
+Plugin | Command | Description
+:-|:-|:-
+**coc.nvim** | auto | LSP-powered autocompletion and diagnostics
+**ALE** | auto | Async linting (runs on save only)
+
+### UI & Appearance
+Plugin | Description
+:-|:-
+**gruvbox** | Color scheme
+**vim-airline** | Status bar with molokai theme and buffer tabs
+**vim-devicons** | File type icons (requires Nerd Font)
+**vim-startify** | Start screen with recent files and sessions
+
+### Buffers & Splits
+Command | Description
+:-|:-
+`<Space>T` | New empty buffer
+`<Space>l` | Next buffer
+`<Space>h` | Previous buffer
+`<Space>bq` | Close current buffer
+`<Space>bl` | List all buffers
+`<C-J/K/L/H>` | Navigate splits (down/up/right/left)
+`:sp filename` | Horizontal split
+`:vsp filename` | Vertical split
+
+### Other
+Plugin | Description
+:-|:-
+**vim-obsession** | `:Obsession` to save/restore vim sessions
+**vimwiki** | `<Leader>ww` to open personal wiki (`~/dotfiles/vimwiki/`)
+**Dash** | `:Dash <query>` to search Dash API docs
+**vim-rails** | Rails navigation (`:Emodel`, `:Econtroller`, etc.)
+**vim-rspec** | RSpec integration
 
 Github
 ----------------
@@ -97,7 +163,7 @@ Aliases
  g hist = lists history of one week
  g type <COMMIT> type of commit
  g dump <COMMIT> list stats
- update # update homebrow and npm packages
+ update # update homebrew and npm packages
  p # cd ~/projects
  j # jobs
  m # migrate
@@ -114,26 +180,13 @@ Aliases
  localip
  ips
  tx # tmuxinator
-```
-Vim
--------------
-```
-CTRL-X CTRL-O # ruby completion while in insert
-Gist # public gist
-Gist -a # anonymous gist
-Gist -d # delete a gist
-Gist -b # Open the gist on browser after you post or update it.
-<LEADER> l  # next tab
-<LEADER> h # next tab
-<LEADER> T # new tab
-<LEADER> bq # delete tab
-ctrl-p # open up through files
+ v  # nvim
 ```
 
 Tmux
 ------------
 ```
-C-a # Ctrl -a is my prefix key
+C-a # Ctrl-a is the prefix key
 M-(arrow_key) # switch panes with Alt
 r  # reload tmux.conf
 $ # name session
@@ -143,67 +196,15 @@ x # kill pane
 _ # (SPACE) - toggle between layouts
 d - exits tmux
 :kill-session # end session
-
-
 & # kills the window (exits tmux)
 
 tmux ls # list sessions
-tmux new -s myname #start a session
+tmux new -s myname # start a session
 tmux kill-session -t myname # kill session
 ```
-Vim Snippets
--------------
-Press Ctrl-J to activate
-```
-ead - ERB each loop
-ff - form_for
-ife - if and else ruby statement
-cbl - codeblock
-tb(\d)x(\d) - create a x by x table in markdown
-de - ruby definition
-```
-
-# You can add any snippets in the `/config/nvim/my_snippets` 
-
-
-Emmet Plugin Example
--------------
-* Write expression, then Ctrl-y + ,
-    
-[Examples Here](https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/)
-
-Dash Plugin Example
-------------
-* [Dash API Documentation](https://raw.githubusercontent.com/rizzatti/dash.vim/master/doc/dash.txt)
-
-Command | Definition 
-:-|:-
-:Dash <command> | bring dash to fore front
-
-
-
-
-Atom
-------------
-Link Packages to Atom:
-```
- ln -s ~/.atom/packages ~/.dotfiles/atom/packages
-```
-
-
-```
-Command + Shift + P = Show New Commands
-Command + ,  = Settings
-
-```
-
-
-
 
 ## Thanks
-* [Thoughtbot](http://thoughtbot.com/ )
-* [vim-Plugin](https://github.com/junegunn/vim-plug )
-* Rake
-
-* [Neovim](https://neovim.io/ )
+* [Thoughtbot](http://thoughtbot.com/)
+* [vim-plug](https://github.com/junegunn/vim-plug)
+* [Neovim](https://neovim.io/)
 

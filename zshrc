@@ -139,3 +139,22 @@ export HERD_PHP_84_INI_SCAN_DIR="/Users/alexander.norton/Library/Application Sup
 
 # Created by `pipx` on 2025-02-02 14:31:14
 export PATH="$PATH:/Users/alexandernorton/.local/bin"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/opt/homebrew/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
+        . "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh"
+    else
+        export PATH="/opt/homebrew/Caskroom/miniconda/base/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+
+#export KAGGLE_API_TOKEN=KGAT_6bda079a1ee83947f3295a1e30a7c8e7

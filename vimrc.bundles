@@ -3,8 +3,6 @@ call plug#begin('~/.config/nvim/plugged')
 "use Obsess to save your vim session
 Plug 'tpope/vim-obsession'
 
-" Let Vundle manage Vundle
-Plug 'gmarik/Vundle.vim'
 Plug 'leafOfTree/vim-vue-plugin'
 
 " For Vue.js
@@ -206,12 +204,6 @@ let g:UltiSnipsExpandTrigger="<C-j>"
 "inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 "
 "
-
-imap <tab> <esc>a<Plug>snipMateNextOrTrigger
-
-
-imap <C-S> <Plug>snipMateNextOrTrigger
-
 
 " set relative number
 set number relativenumber
