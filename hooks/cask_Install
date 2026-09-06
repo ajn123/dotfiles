@@ -1,36 +1,20 @@
 #!/usr/bin/env bash
-# Install native apps
-#
-# Usage: `brew bundle Caskfile`
+# Install native apps via Homebrew Cask
 
-brew install caskroom/cask/brew-cask;
-brew tap caskroom/versions;
-
-brew  install dropbox 2> /dev/null;
-brew  install google-chrome 2> /dev/null;
-brew  install iterm2 2> /dev/null;
-brew  install macvim 2> /dev/null;
-brew  install sublime-text 2> /dev/null;
-brew  install the-unarchiver 2> /dev/null;
-brew  install alfred; 
-brew  install dash;
-brew  install spectacle;
-brew  install onepassword;
-brew  install mactex;
-brew  install atom; 
-brew  install docker;
-brew install notion
-brew install tableplus;
-brew install slack;
-brew install loop;
-
-
-brew install --cask anaconda
-
-# Installs One Drive, Outlook and the rest
+brew install --cask google-chrome;
+brew install --cask iterm2;
+brew install --cask sublime-text;
+brew install --cask the-unarchiver;
+brew install --cask alfred;
+brew install --cask dash;
+brew install --cask rectangle;
+brew install --cask 1password;
+brew install --cask mactex;
+brew install --cask docker;
+brew install --cask notion;
+brew install --cask tableplus;
+brew install --cask slack;
+brew install --cask loop;
 brew install --cask microsoft-office;
-
-brew tap homebrew/cask-fonts;
-brew  install font-hack-nerd-font;
-brew install  miniconda
-
+brew install --cask font-hack-nerd-font;
+brew install --cask miniconda;

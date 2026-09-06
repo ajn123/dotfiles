@@ -1,83 +1,52 @@
 #!/usr/bin/env bash
 # Install command-line tools using Homebrew
-# brew tap homebrew/boneyard
-# Usage: `brew bundle Brewfile`
 
-# Make sure we’re using the latest Homebrew
+# Make sure we're using the latest Homebrew
 brew update;
 
 # Upgrade any already-installed formulae
 brew upgrade;
 
 # Install GNU core utilities (those that come with OS X are outdated)
-# Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+# Don't forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew install coreutils;
 # Install some other useful utilities like `sponge`
 brew install moreutils;
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 brew install findutils;
-# Install GNU `sed`, overwriting the built-in `sed`
-brew install gnu-sed --default-names;
+# Install GNU `sed`
+# Add `$(brew --prefix gnu-sed)/libexec/gnubin` to `$PATH` to use as default sed
+brew install gnu-sed;
 # Install Bash 4
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
+# Note: don't forget to add `/usr/local/bin/bash` to `/etc/shells` before running `chsh`.
 brew install bash;
-brew install bash-completion;
 brew install wget;
 
-# Install wget with IRI support
-brew install wget --enable-iri;
-
-# Install RingoJS and Narwhal
-# Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-brew install ringojs;
-brew install narwhal;
-
 # Install more recent versions of some OS X tools
-brew install vim --override-system-vi;
-brew install homebrew/dupes/grep;
-brew install homebrew/dupes/screen;
+brew install grep;
 
-# Install other useful binaries
-brew install ack;
-brew install bfg;
-#install exiv2
-brew install foremost;
+# Install useful binaries
 brew install git;
-brew install hashpump;
-brew install imagemagick --with-webp;
-brew install lynx;
-brew install nmap;
+brew install imagemagick;
 brew install node; # This installs `npm` too using the recommended installation method
 brew install p7zip;
 brew install pigz;
 brew install pv;
 brew install rename;
-brew install rhino;
-brew install sqlmap;
 brew install tree;
-brew install ucspi-tcp; # `tcpserver` et al.
-brew install webkit2png;
-brew install xpdf;
 brew install zopfli;
 
-
-brew install postgres; 
+brew install postgresql@17;
 brew install neovim;
 
-brew tap Goles/battery;
-brew install battery;
-brew install spark;
 brew install z;
 brew install bat;
+brew install ripgrep;
+brew install fzf;
+brew install fd;
 
 brew install tmux;
-
-#tmuxinator
-brew tap nexeck/homebrew-tmuxinator;
-brew install nexeck/homebrew-tmuxinator/tmuxinator;
-
-
-brew install --cask mactex; 
+brew install tmuxinator;
 
 # Remove outdated versions from the cellar
 brew cleanup;

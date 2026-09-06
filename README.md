@@ -56,6 +56,19 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \                              
 
 
 
+Homebrew Casks (GUI Apps)
+-----------------------------
+
+Install all GUI applications via Homebrew Cask:
+
+    bash hooks/cask_Install
+
+This installs: Google Chrome, iTerm2, Sublime Text, The Unarchiver, Alfred, Dash, Rectangle, 1Password, MacTeX, Docker, Notion, TablePlus, Slack, Loop, Microsoft Office, Hack Nerd Font, and Miniconda.
+
+To install individual casks manually:
+
+    brew install --cask <cask-name>
+
 Mac
 -----------------------------
 ## Zoom

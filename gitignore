@@ -30,3 +30,5 @@ Thumbs.db
 
 #Session.vim files
 Session.vim
+
+**/.claude/settings.local.json
