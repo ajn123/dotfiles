@@ -171,6 +171,10 @@ endfunction
 map <C-p> :call Fzf_dev()<CR>
 map <C-b> :Buffers<CR>
 
+" Fuzzy full-text search across the whole directory (ripgrep + fzf).
+" Type to grep file *contents* everywhere under the cwd; Enter opens the hit.
+nnoremap <silent> <C-f> :Rg<CR>
+
 
 " Vim wiki
 let g:vimwiki_list = [{'path': '~/dotfiles/vimwiki/',
